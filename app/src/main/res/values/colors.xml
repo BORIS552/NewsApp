@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2980B9</color>
+    <color name="colorPrimaryDark">#2980B9</color>
+    <color name="colorAccent">#2980B9</color>
+    <color name="viewBg">#f1f5f8</color>
+    <color name="album_title">#4c4c4c</color>
+    <color name="deep_black">#000000</color>
+    <color name="cardview_initial_background">#71C3DE</color>
+    <color name="background_white">#FFFFFF</color>
+</resources>

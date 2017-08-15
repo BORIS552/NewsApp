@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WorldExplorer</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_business">Business</string>
+    <string name="title_general">General</string>
+    <string name="title_sports">Sports</string>
+    <string name="title_technology">Technology</string>
+    <string name="title_gaming">Gaming</string>
+</resources>
