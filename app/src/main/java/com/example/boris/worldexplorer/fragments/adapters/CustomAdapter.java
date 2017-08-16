@@ -38,8 +38,8 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
                     Log.d(TAG, "Element " + getAdapterPosition() + " clicked.");
                 }
             });
-            textView = (TextView) v.findViewById(R.id.simple_text);
-            textView2 = (TextView) v.findViewById(R.id.simple_text2);
+            textView = (TextView) v.findViewById(R.id.title);
+            textView2 = (TextView) v.findViewById(R.id.description);
         }
 
          /*public TextView getTextView() {
@@ -56,6 +56,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
      */
     public CustomAdapter(Article article) {
         this.article = article;
+        setHasStableIds(true);
         //mDataSet = dataSet;
     }
 
@@ -80,10 +81,10 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
         //Get element from your dataset at this position and replace the contents of the view
         // with that element
         //viewHolder.getTextView().setText(mDataSet[position]);
-        textView.setText(article.getSource());
-        System.out.println(article.getSource());
-        textView2.setText(article.getStatus());
-        System.out.println(article.getStatus());
+       String title =  article.articleList.get(position).get("title");
+       String description = article.articleList.get(position).get("description");
+        textView.setText(title);
+        textView2.setText(description);
     }
     // END_INCLUDE(recyclerViewOnBindViewHolder)
 
@@ -92,5 +93,15 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
     public int getItemCount() {
         System.out.println("------>>>>>>>>>>" + article.getArticleCount());
         return article.getArticleCount();
+    }
+
+    @Override
+    public long getItemId(int position) {
+        return position;
+    }
+
+    @Override
+    public int getItemViewType(int position) {
+        return position;
     }
 }

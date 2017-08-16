@@ -64,12 +64,12 @@
         "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/nytimes.png"
     },
     {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
-        "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/drawable/notification_bg_low.xml"
-    },
-    {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
         "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
+        "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/drawable/notification_bg_low.xml"
     },
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/espn.png",

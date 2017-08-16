@@ -17,17 +17,21 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
     <TextView
-        android:id="@+id/simple_text"
-        android:layout_width="wrap_content"
-        android:layout_height="100dp"
-        android:text="Single card"
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Title"
         android:padding="10dp"/>
     <TextView
-        android:layout_below="@+id/simple_text"
-        android:id="@+id/simple_text2"
-        android:layout_width="wrap_content"
-        android:layout_height="100dp"
-        android:text="Single card"
+        android:layout_below="@+id/title"
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        android:text="Description"
         android:padding="10dp"/>
 
     </RelativeLayout>
