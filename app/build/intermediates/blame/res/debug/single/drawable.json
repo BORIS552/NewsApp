@@ -112,6 +112,10 @@
         "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/usa_today.png"
     },
     {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/time.png",
+        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/time.png"
+    },
+    {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/newsweek.png",
         "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/newsweek.png"
     },

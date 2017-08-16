@@ -2765,13 +2765,13 @@ containing a value of this type.
         public static final int abc_textfield_search_material=0x7f020051;
         public static final int abc_vector_test=0x7f020052;
         public static final int avd_hide_password=0x7f020053;
-        public static final int avd_hide_password_1=0x7f020096;
-        public static final int avd_hide_password_2=0x7f020097;
-        public static final int avd_hide_password_3=0x7f020098;
+        public static final int avd_hide_password_1=0x7f020097;
+        public static final int avd_hide_password_2=0x7f020098;
+        public static final int avd_hide_password_3=0x7f020099;
         public static final int avd_show_password=0x7f020054;
-        public static final int avd_show_password_1=0x7f020099;
-        public static final int avd_show_password_2=0x7f02009a;
-        public static final int avd_show_password_3=0x7f02009b;
+        public static final int avd_show_password_1=0x7f02009a;
+        public static final int avd_show_password_2=0x7f02009b;
+        public static final int avd_show_password_3=0x7f02009c;
         public static final int bbc=0x7f020055;
         public static final int bbc_sport=0x7f020056;
         public static final int bloomberg=0x7f020057;
@@ -2817,8 +2817,8 @@ containing a value of this type.
         public static final int notification_bg_normal=0x7f02007f;
         public static final int notification_bg_normal_pressed=0x7f020080;
         public static final int notification_icon_background=0x7f020081;
-        public static final int notification_template_icon_bg=0x7f020094;
-        public static final int notification_template_icon_low_bg=0x7f020095;
+        public static final int notification_template_icon_bg=0x7f020095;
+        public static final int notification_template_icon_low_bg=0x7f020096;
         public static final int notification_tile_bg=0x7f020082;
         public static final int notify_panel_notification_icon_bg=0x7f020083;
         public static final int nytimes=0x7f020084;
@@ -2831,12 +2831,13 @@ containing a value of this type.
         public static final int telegraph=0x7f02008b;
         public static final int the_economist=0x7f02008c;
         public static final int the_next_web=0x7f02008d;
-        public static final int times=0x7f02008e;
-        public static final int toi=0x7f02008f;
-        public static final int usa_today=0x7f020090;
-        public static final int verge=0x7f020091;
-        public static final int wall_street_journal=0x7f020092;
-        public static final int world=0x7f020093;
+        public static final int time=0x7f02008e;
+        public static final int times=0x7f02008f;
+        public static final int toi=0x7f020090;
+        public static final int usa_today=0x7f020091;
+        public static final int verge=0x7f020092;
+        public static final int wall_street_journal=0x7f020093;
+        public static final int world=0x7f020094;
     }
     public static final class id {
         public static final int action0=0x7f0d008d;
