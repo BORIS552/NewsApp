@@ -2,6 +2,8 @@ package com.example.boris.worldexplorer.fragments;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -23,6 +25,10 @@ public class TechnologyNewsFragment extends Fragment {
 
     private String[] newsChannels = {"ENGADGET","TECHCRUNCH","TECHRADAR","RECODE","NEW SCIENTIST","MASHABLE","HACKER NEWS","THE NEXT WEB"};
 
+    private String[] newsSourceUrl = {"source=engadget&sortBy=top&","source=techcrunch&sortBy=top&","source=techradar&sortBy=top&",
+                                       "source=recode&sortBy=top&","source=new-scientist&sortBy=top&","source=mashable&sortBy=top&",
+                                       "source=hacker-news&sortBy=top&","source=the-next-web&sortBy=latest&"};
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         final View vfrag  = inflater.inflate(R.layout.fragment_technology,container,false);
@@ -32,8 +38,16 @@ public class TechnologyNewsFragment extends Fragment {
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View v,
                                     int position, long id) {
-                Toast.makeText(getActivity(), "hello" + position,
-                        Toast.LENGTH_SHORT).show();
+               // Toast.makeText(getActivity(), "hello" + position, Toast.LENGTH_SHORT).show();
+
+                RecyclerViewFragment recyclerViewFragment = new RecyclerViewFragment();
+                FragmentManager fragmentManager = getFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                Bundle args = new Bundle();
+                args.putString("URL", newsSourceUrl[position]);
+                recyclerViewFragment.setArguments(args);
+                fragmentTransaction.replace(R.id.main_container,recyclerViewFragment);
+                fragmentTransaction.commit();
             }
         });
         return vfrag;

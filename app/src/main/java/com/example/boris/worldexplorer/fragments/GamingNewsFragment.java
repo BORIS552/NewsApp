@@ -2,6 +2,8 @@ package com.example.boris.worldexplorer.fragments;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -20,6 +22,7 @@ public class GamingNewsFragment extends Fragment {
 
     private Integer[] thumbGamingID = {R.drawable.ign,R.drawable.polygon,R.drawable.verge};
     private String[] newsChannelGaming = {"IGN","POLYGON","THE VERGE"};
+    private String[] newsSourceUrl = {"source=ign&sortBy=top&","source=polygon&sortBy=top&","source=the-verge&sortBy=top&"};
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         final View vfrag  = inflater.inflate(R.layout.fragment_gaming,container,false);
@@ -29,8 +32,16 @@ public class GamingNewsFragment extends Fragment {
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View v,
                                     int position, long id) {
-                Toast.makeText(getActivity(), "hello" + position,
-                        Toast.LENGTH_SHORT).show();
+               // Toast.makeText(getActivity(), "hello" + position, Toast.LENGTH_SHORT).show();
+
+                RecyclerViewFragment recyclerViewFragment = new RecyclerViewFragment();
+                FragmentManager fragmentManager = getFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                Bundle args = new Bundle();
+                args.putString("URL", newsSourceUrl[position]);
+                recyclerViewFragment.setArguments(args);
+                fragmentTransaction.replace(R.id.main_container,recyclerViewFragment);
+                fragmentTransaction.commit();
             }
         });
 

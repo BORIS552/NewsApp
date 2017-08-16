@@ -20,11 +20,13 @@ import com.example.boris.worldexplorer.fragments.adapters.CustomGridViewAdapter;
 
 public class SportsNewsFragment extends Fragment {
 
-    private Integer[] thumbSportsID = {R.drawable.espn,R.drawable.espn_cric,R.drawable.fox_sport,R.drawable.football_italia,R.drawable.sports_bible,R.drawable.talk_sport};
+    private Integer[] thumbSportsID = {R.drawable.espn,R.drawable.espn_cric,R.drawable.fox_sport,R.drawable.football_italia,R.drawable.sports_bible,
+                                       R.drawable.talk_sport};
 
     private String[] newsChannelSports = {"ESPN","ESPN CRIC INFO","FOX SPORTS","FOOTBALL ITALIA","THE SPORTS BIBLE","TALKSPORT"};
 
-    private String[] newsSourceUrl = {};
+    private String[] newsSourceUrl = {"source=espn&sortBy=top&","source=espn-cric-info&sortBy=top&","source=fox-sports&sortBy=top&",
+                                      "source=football-italia&sortBy=top&","source=the-sport-bible&sortBy=top&","source=talksport&sortBy=top&"};
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         final View vfrag  = inflater.inflate(R.layout.fragment_sportsnews,container,false);
