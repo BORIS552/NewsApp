@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    }
+]

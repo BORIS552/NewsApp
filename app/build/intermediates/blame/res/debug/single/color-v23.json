@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
+        "source": "/Users/boris/.android/build-cache/03e51a9a06fbbc87b76cef769a1ae722da1b3fe2/output/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/color-v23/abc_color_highlight_material.xml"
+    }
+]
