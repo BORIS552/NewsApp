@@ -1,14 +1,17 @@
 package com.example.boris.worldexplorer.fragments.adapters;
 
+import android.content.Context;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.boris.worldexplorer.R;
 import com.example.boris.worldexplorer.model.transaction.Article;
+import com.squareup.picasso.Picasso;
 
 /**
  * Created by boris on 8/13/17.
@@ -17,11 +20,12 @@ import com.example.boris.worldexplorer.model.transaction.Article;
 public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder> {
 
     private static final String TAG = "CustomAdapter";
-
+    private Context context;
     private String[] mDataSet;
     private Article article;
     private static TextView textView;
     private static TextView textView2;
+    private static ImageView imageView;
     // BEGIN_INCLUDE(recyclerViewSampleViewHolder)
     /**
      * Provide a reference to the type of views that you are using (custom ViewHolder)
@@ -40,6 +44,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
             });
             textView = (TextView) v.findViewById(R.id.title);
             textView2 = (TextView) v.findViewById(R.id.description);
+            imageView = (ImageView) v.findViewById(R.id.newsImage);
         }
 
          /*public TextView getTextView() {
@@ -54,7 +59,8 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
      *
      * @param //dataSet String[] containing the data to populate views to be used by RecyclerView.
      */
-    public CustomAdapter(Article article) {
+    public CustomAdapter(Article article, Context context) {
+        this.context = context;
         this.article = article;
         setHasStableIds(true);
         //mDataSet = dataSet;
@@ -81,8 +87,10 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
         //Get element from your dataset at this position and replace the contents of the view
         // with that element
         //viewHolder.getTextView().setText(mDataSet[position]);
-       String title =  article.articleList.get(position).get("title");
-       String description = article.articleList.get(position).get("description");
+        String title =  article.articleList.get(position).get("title");
+        String description = article.articleList.get(position).get("description");
+        String imageURL = article.articleList.get(position).get("imageURL");
+        Picasso.with(context).load(imageURL).into(imageView);
         textView.setText(title);
         textView2.setText(description);
     }

@@ -111,7 +111,7 @@ public class DataHandler{
             });
 
             requestQueue.add(jsonObjectRequest);
-            adapter = new CustomAdapter(article);
+            adapter = new CustomAdapter(article,context);
             mRecyclerView.setAdapter(adapter);
         }
         /*

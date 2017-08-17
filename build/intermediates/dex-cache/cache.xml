@@ -11,6 +11,15 @@
         <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_126826405a4a5f1e912ea480b022a5fba9bde464/classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="/Users/boris/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_53f1af74b46e8cc36396aaa8011865088512f1fd.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"

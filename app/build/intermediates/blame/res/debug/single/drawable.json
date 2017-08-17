@@ -264,10 +264,6 @@
         "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/drawable/abc_cab_background_top_material.xml"
     },
     {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/world.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/world.jpg"
-    },
-    {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/financial_times.png",
         "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/financial_times.png"
     },
