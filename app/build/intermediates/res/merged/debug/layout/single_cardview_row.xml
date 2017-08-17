@@ -20,7 +20,7 @@
      <ImageView
          android:layout_width="fill_parent"
          android:scaleType="fitXY"
-         android:layout_height="200dp"
+         android:layout_height="170dp"
          android:src="@drawable/financial_times"
          android:id="@+id/newsImage"
          android:layout_alignParentTop="true"
@@ -31,15 +31,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textStyle="bold"
-        android:textSize="18dp"
+        android:textSize="16dp"
         android:text="Title"
-        android:padding="10dp"/>
+        android:padding="10dp"
+        android:textColor="@color/deep_black"/>
     <TextView
         android:layout_below="@+id/title"
         android:id="@+id/description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="15dp"
+        android:textSize="14dp"
         android:textStyle="italic"
         android:text="Description"
         android:padding="10dp"/>

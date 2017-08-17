@@ -57,8 +57,8 @@ public class CustomGridViewAdapter extends BaseAdapter {
         ImageView imageViewAndroid = (ImageView) gridViewAndroid.findViewById(R.id.android_gridview_image);
         imageViewAndroid.setLayoutParams(new LinearLayout.LayoutParams(300, 300));
         imageViewAndroid.setScaleType(ImageView.ScaleType.CENTER_CROP);
-        imageViewAndroid.setPadding(8, 8, 8, 8);
-        //imageViewAndroid.setElevation(50);
+        imageViewAndroid.setPadding(10, 10, 10, 10);
+        imageViewAndroid.setElevation(50);
         textViewAndroid.setText(newsChannel[position]);
         imageViewAndroid.setImageResource(thumbID[position]);
         return gridViewAndroid;

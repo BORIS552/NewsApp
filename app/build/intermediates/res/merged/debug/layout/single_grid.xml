@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:grid="http://schemas.android.com/apk/res-auto"
     grid:theme="@style/Base.CardView"
     android:id="@+id/android_custom_gridview_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center_horizontal"
-    android:orientation="vertical">
+    android:gravity="center"
+    android:orientation="vertical"
+    android:clipToPadding="false"
+    android:padding="10dp">
 
     <ImageView
         android:id="@+id/android_gridview_image"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginTop="15dp"
-        android:elevation="10dp"
         android:backgroundTint="#FFF"
-        android:background="@drawable/myrect"/>
+        android:elevation="30dp"
+        android:fadingEdge="horizontal"
+        android:background="@drawable/myrect" />
 
     <TextView
         android:id="@+id/android_gridview_text"
@@ -23,6 +27,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:textSize="18sp"
+        android:gravity="center"
         android:textColor="@color/deep_black"
         android:textStyle="bold"/>
 </LinearLayout>

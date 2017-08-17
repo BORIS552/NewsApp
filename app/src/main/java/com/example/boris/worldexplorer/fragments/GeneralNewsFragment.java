@@ -23,7 +23,7 @@ import com.example.boris.worldexplorer.fragments.adapters.CustomGridViewAdapter;
 public class GeneralNewsFragment extends Fragment {
 
     private Integer[] thumbGeneralID ={R.drawable.bbc,R.drawable.cnn,R.drawable.guardian,R.drawable.hindu,R.drawable.telegraph,
-            R.drawable.toi,R.drawable.bloomberg,R.drawable.google,R.drawable.time,R.drawable.focus,
+            R.drawable.toi,R.drawable.bloomberg,R.drawable.google,R.drawable.time2,R.drawable.focus,
             R.drawable.metro,R.drawable.nytimes};
 
     private String[] newsChannelGeneral = {"BBC NEWS","CNN","GUARDIAN","THE HINDU","THE TELEGRAPH","THE TIMES OF INDIA","BLOOMBERG",
