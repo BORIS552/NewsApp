@@ -92,6 +92,10 @@
         "source": "/Users/boris/.android/build-cache/03e51a9a06fbbc87b76cef769a1ae722da1b3fe2/output/res/layout/design_text_input_password_icon.xml"
     },
     {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/layout/activity_splashscreen.xml",
+        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/layout/activity_splashscreen.xml"
+    },
+    {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
         "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/layout/notification_template_media_custom.xml"
     },

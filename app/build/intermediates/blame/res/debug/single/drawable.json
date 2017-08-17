@@ -276,6 +276,10 @@
         "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/ic_sports_black_24dp.xml"
     },
     {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/splash.jpg",
+        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/splash.jpg"
+    },
+    {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/bbc_sport.png",
         "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/bbc_sport.png"
     },

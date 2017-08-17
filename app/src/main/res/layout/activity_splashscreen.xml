@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView android:id="@+id/splashscreen" android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/splash"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        />
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="WorldExplorer"
+        android:textColor="@color/background_white"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textSize="60dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="POWERED BY :-"
+        android:textColor="@color/background_white"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:layout_marginTop="450dp"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="newsapi.org"
+        android:textColor="@color/background_white"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:layout_marginTop="470dp"/>
+
+</RelativeLayout>
