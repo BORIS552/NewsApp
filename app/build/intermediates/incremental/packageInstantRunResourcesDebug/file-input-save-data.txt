@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Aug 18 00:27:47 IST 2017
+#Fri Aug 18 20:52:02 IST 2017
 210.set=ANDROID_RESOURCE
 282.file=/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png
 14.set=ANDROID_RESOURCE
@@ -398,7 +398,7 @@
 262.file=/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/resources-debug.ap_/res/layout/fragment_recyclerview.xml
 185.file=/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_tint_default.xml
 6.set=ANDROID_RESOURCE
-160.file=/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/resources-debug.ap_/res/drawable/new_scientist.jpg
+160.file=/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ic_clear_material.xml
 168.set=ANDROID_RESOURCE
 221.set=ANDROID_RESOURCE
 25.set=ANDROID_RESOURCE
@@ -468,7 +468,7 @@
 28.set=ANDROID_RESOURCE
 80.base=/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/resources-debug.ap_
 236.file=/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/resources-debug.ap_/res/drawable/hindu.jpg
-159.file=/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/resources-debug.ap_/res/drawable/splash.jpeg
+159.file=/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/resources-debug.ap_/res/drawable/new_scientist.jpg
 270.set=ANDROID_RESOURCE
 288.file=/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_tab_indicator_material.xml
 211.file=/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/resources-debug.ap_/res/anim/abc_popup_exit.xml
@@ -476,7 +476,7 @@
 74.set=ANDROID_RESOURCE
 263.file=/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
 186.file=/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/resources-debug.ap_/res/drawable/bloomberg.jpg
-161.file=/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ic_clear_material.xml
+161.file=/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/resources-debug.ap_/res/anim/abc_popup_enter.xml
 192.base=/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/resources-debug.ap_
 290.file=/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/resources-debug.ap_/res/color-v11/abc_background_cache_hint_selector_material_light.xml
 231.set=ANDROID_RESOURCE
@@ -554,7 +554,7 @@ count=298
 264.file=/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/resources-debug.ap_/res/layout/design_layout_snackbar_include.xml
 187.file=/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/resources-debug.ap_/res/drawable/focus.jpg
 110.file=/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
-162.file=/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/resources-debug.ap_/res/anim/abc_popup_enter.xml
+162.file=/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
 193.base=/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/resources-debug.ap_
 291.file=/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
 241.set=ANDROID_RESOURCE
@@ -633,7 +633,7 @@ count=298
 188.file=/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png
 111.file=/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/resources-debug.ap_/res/drawable-v21/abc_action_bar_item_background_material.xml
 240.file=/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ic_search_api_material.xml
-163.file=/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+163.file=/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/resources-debug.ap_/res/drawable/ic_public_black_24dp.xml
 194.base=/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/resources-debug.ap_
 292.file=/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/resources-debug.ap_/res/color-v23/abc_btn_colored_text_material.xml
 251.set=ANDROID_RESOURCE

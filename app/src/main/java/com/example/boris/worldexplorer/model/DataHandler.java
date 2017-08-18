@@ -35,7 +35,7 @@ public class DataHandler{
     private String api_Key = "apiKey=ee5791b88e6949788adb0b5957c4c331";
     private RequestQueue requestQueue;
     private int articleCount;
-    private String author,title,description,URL,imageURL,date;
+    private String author = null,title = null,description = null,URL=null,imageURL=null,date=null;
     public  ArrayList<HashMap<String,String>> articleList;
     public Article article = new Article();
     public CustomAdapter adapter;
@@ -51,6 +51,7 @@ public class DataHandler{
 
         public void fetchData(String url, RecyclerView mRecyclerView, CustomAdapter mAdapter) {
             this.adapter = mAdapter;
+
             final ProgressDialog loading = ProgressDialog.show(context,"Loading Data", "Please wait...",false,false);
             articleList = new ArrayList<>();
             this.URL = BASE_URL+url+api_Key;
@@ -81,7 +82,11 @@ public class DataHandler{
                                     System.out.println(description);
                                     URL = obj.getString("url");
                                     System.out.println(URL);
-                                    imageURL = obj.getString("urlToImage");
+                                    if(obj.has("urlToImage")) {
+                                        imageURL = obj.getString("urlToImage");
+                                    }else {
+                                        imageURL = "NoImage";
+                                    }
                                     System.out.println(imageURL);
                                     date = obj.getString("publishedAt");
                                     System.out.println(date);

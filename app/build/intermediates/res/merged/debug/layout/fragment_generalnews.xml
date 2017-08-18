@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/android_gridview_example"
+    android:id="@+id/android_gridview"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="10dp">
-
     <GridView
         android:id="@+id/gridview_general"
         android:layout_width="match_parent"
@@ -15,5 +14,5 @@
         android:horizontalSpacing="10dp"
         android:stretchMode="columnWidth"
         android:gravity="center"
-        android:numColumns="2"/>
+        android:numColumns="2" />
 </LinearLayout>

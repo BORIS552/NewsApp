@@ -87,10 +87,15 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
         //Get element from your dataset at this position and replace the contents of the view
         // with that element
         //viewHolder.getTextView().setText(mDataSet[position]);
+        imageView.setElevation(20);
         String title =  article.articleList.get(position).get("title");
         String description = article.articleList.get(position).get("description");
         String imageURL = article.articleList.get(position).get("imageURL");
-        Picasso.with(context).load(imageURL).into(imageView);
+        if(imageURL.trim().length() == 0 ){
+            imageView.setImageResource(R.drawable.ic_public_black_24dp);
+        }else {
+            Picasso.with(context).load(imageURL).into(imageView);
+        }
         textView.setText(title);
         textView2.setText(description);
     }
