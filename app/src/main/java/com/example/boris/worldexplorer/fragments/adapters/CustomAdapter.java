@@ -1,6 +1,7 @@
 package com.example.boris.worldexplorer.fragments.adapters;
 
 import android.content.Context;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -13,9 +14,11 @@ import com.example.boris.worldexplorer.R;
 import com.example.boris.worldexplorer.model.transaction.Article;
 import com.squareup.picasso.Picasso;
 
+
 /**
  * Created by boris on 8/13/17.
  */
+
 
 public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder> {
 
@@ -23,9 +26,12 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
     private Context context;
     //private String[] mDataSet;
     private Article article;
+    private int pos;
     private static TextView textView;
     private static TextView textView2;
     private static ImageView imageView;
+
+    public CustomAdapter() {}
 
     // BEGIN_INCLUDE(recyclerViewSampleViewHolder)
     /**
@@ -36,11 +42,17 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
 
         public ViewHolder(View v) {
             super(v);
+            CustomAdapter adapter = new CustomAdapter();
+            final String URL;
+            final int position = adapter.pos;
+            URL= adapter.article.articleList.get(position).get("URL");
             // Define click listener for the ViewHolder's View.
+
             v.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     Log.d(TAG, "Element " + getAdapterPosition() + " clicked.");
+
                 }
             });
             textView = (TextView) v.findViewById(R.id.title);
@@ -84,7 +96,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
     @Override
     public void onBindViewHolder(ViewHolder viewHolder, final int position) {
         Log.d(TAG, "Element " + position + " set.");
-
+         pos = position;
         //Get element from your dataset at this position and replace the contents of the view
         // with that element
         //viewHolder.getTextView().setText(mDataSet[position]);
