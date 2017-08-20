@@ -20,14 +20,15 @@ import com.example.boris.worldexplorer.fragments.adapters.CustomGridViewAdapter;
 
 public class TechnologyNewsFragment extends Fragment {
 
-    private Integer[] thumbTechnologyID = {R.drawable.engadget,R.drawable.tech_crunch,R.drawable.tech_radar,R.drawable.recode,
-                                            R.drawable.new_scientist,R.drawable.mashable,R.drawable.hacker_news,R.drawable.the_next_web};
+    private Integer[] thumbTechnologyID = {R.drawable.national_geographic,R.drawable.engadget,R.drawable.tech_crunch,R.drawable.tech_radar,R.drawable.recode,
+                                            R.drawable.new_scientist,R.drawable.mashable,R.drawable.hacker_news,R.drawable.the_next_web
+                                            ,R.drawable.ars_technica};
 
-    private String[] newsChannels = {"ENGADGET","TECHCRUNCH","TECHRADAR","RECODE","NEW SCIENTIST","MASHABLE","HACKER NEWS","THE NEXT WEB"};
+    private String[] newsChannels = {"NATIONAL GEOGRAPHIC","ENGADGET","TECHCRUNCH","TECHRADAR","RECODE","NEW SCIENTIST","MASHABLE","HACKER NEWS","THE NEXT WEB","Ars Technica"};
 
-    private String[] newsSourceUrl = {"source=engadget&sortBy=top&","source=techcrunch&sortBy=top&","source=techradar&sortBy=top&",
+    private String[] newsSourceUrl = {"source=national-geographic&sortBy=top&","source=engadget&sortBy=top&","source=techcrunch&sortBy=top&","source=techradar&sortBy=top&",
                                        "source=recode&sortBy=top&","source=new-scientist&sortBy=top&","source=mashable&sortBy=top&",
-                                       "source=hacker-news&sortBy=top&","source=the-next-web&sortBy=latest&"};
+                                       "source=hacker-news&sortBy=top&","source=the-next-web&sortBy=latest&","source=ars-technica&sortBy=top&"};
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {

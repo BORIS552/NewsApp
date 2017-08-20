@@ -21,11 +21,12 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
 
     private static final String TAG = "CustomAdapter";
     private Context context;
-    private String[] mDataSet;
+    //private String[] mDataSet;
     private Article article;
     private static TextView textView;
     private static TextView textView2;
     private static ImageView imageView;
+
     // BEGIN_INCLUDE(recyclerViewSampleViewHolder)
     /**
      * Provide a reference to the type of views that you are using (custom ViewHolder)

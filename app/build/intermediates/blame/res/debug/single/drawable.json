@@ -28,6 +28,10 @@
         "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/recode.png"
     },
     {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/washington_post.png",
+        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/washington_post.png"
+    },
+    {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
         "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/drawable/abc_list_selector_holo_dark.xml"
     },
@@ -48,10 +52,6 @@
         "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/drawable/notification_bg_low.xml"
     },
     {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/talk_sport.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/talk_sport.jpg"
-    },
-    {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/hindu.png",
         "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/hindu.png"
     },
@@ -66,10 +66,6 @@
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/the_next_web.png",
         "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/the_next_web.png"
-    },
-    {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/metro.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/metro.jpg"
     },
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
@@ -88,16 +84,8 @@
         "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/newsweek.png"
     },
     {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/football_italia.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/football_italia.jpg"
-    },
-    {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/ic_public_black_24dp.xml",
         "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/ic_public_black_24dp.xml"
-    },
-    {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/business_insider.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/business_insider.jpg"
     },
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/verge.png",
@@ -112,6 +100,10 @@
         "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/drawable/abc_seekbar_tick_mark_material.xml"
     },
     {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/four_two_four.png",
+        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/four_two_four.png"
+    },
+    {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
         "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
     },
@@ -124,24 +116,16 @@
         "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/drawable/abc_text_cursor_material.xml"
     },
     {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/focus.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/focus.jpg"
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/ic_movie_filter_black_24dp.xml",
+        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/ic_movie_filter_black_24dp.xml"
     },
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/tech_crunch.png",
         "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/tech_crunch.png"
     },
     {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/bloomberg.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/bloomberg.jpg"
-    },
-    {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/business_insider_uk.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/business_insider_uk.jpg"
-    },
-    {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/ign.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/ign.jpg"
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/nfl.png",
+        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/nfl.png"
     },
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/daily_mail.png",
@@ -152,28 +136,8 @@
         "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/myrect.xml"
     },
     {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/recode.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/recode.jpg"
-    },
-    {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/usa_today.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/usa_today.jpg"
-    },
-    {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
         "source": "/Users/boris/.android/build-cache/03e51a9a06fbbc87b76cef769a1ae722da1b3fe2/output/res/drawable/design_fab_background.xml"
-    },
-    {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/nytimes.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/nytimes.jpg"
-    },
-    {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/mashable.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/mashable.jpg"
-    },
-    {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/polygon.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/polygon.jpg"
     },
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/cnbc.png",
@@ -186,6 +150,10 @@
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
         "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/ars_technica.png",
+        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/ars_technica.png"
     },
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/tech_radar.png",
@@ -216,16 +184,8 @@
         "source": "/Users/boris/.android/build-cache/03e51a9a06fbbc87b76cef769a1ae722da1b3fe2/output/res/drawable/design_snackbar_background.xml"
     },
     {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/telegraph.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/telegraph.jpg"
-    },
-    {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/fox_sport.png",
         "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/fox_sport.png"
-    },
-    {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/guardian.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/guardian.jpg"
     },
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/business_insider.png",
@@ -234,14 +194,6 @@
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/times.png",
         "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/times.png"
-    },
-    {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/toi.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/toi.jpg"
-    },
-    {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/time2.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/time2.jpg"
     },
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
@@ -256,16 +208,16 @@
         "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/business_insider_uk.png"
     },
     {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/the_huffington_post.png",
+        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/the_huffington_post.png"
+    },
+    {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
         "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/drawable/abc_vector_test.xml"
     },
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/hacker_news.jpg",
         "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/hacker_news.jpg"
-    },
-    {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/daily_mail.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/daily_mail.jpg"
     },
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
@@ -280,10 +232,6 @@
         "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/drawable/abc_ic_voice_search_api_material.xml"
     },
     {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/tech_crunch.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/tech_crunch.jpg"
-    },
-    {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
         "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/drawable/abc_seekbar_track_material.xml"
     },
@@ -296,28 +244,8 @@
         "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/drawable/abc_ratingbar_indicator_material.xml"
     },
     {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/cnbc.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/cnbc.jpg"
-    },
-    {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/ign.png",
         "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/ign.png"
-    },
-    {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/bbc_sport.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/bbc_sport.jpg"
-    },
-    {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/financial_times.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/financial_times.jpg"
-    },
-    {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/cnn.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/cnn.jpg"
-    },
-    {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/espn_cric.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/espn_cric.jpg"
     },
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/time.png",
@@ -326,10 +254,6 @@
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/engadget.png",
         "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/engadget.png"
-    },
-    {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/tech_radar.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/tech_radar.jpg"
     },
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/mashable.png",
@@ -346,10 +270,6 @@
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
         "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/drawable/abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/sports_bible.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/sports_bible.jpg"
     },
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
@@ -380,28 +300,8 @@
         "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/talk_sport.png"
     },
     {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/the_economist.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/the_economist.jpg"
-    },
-    {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/wall_street_journal.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/wall_street_journal.jpg"
-    },
-    {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/times.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/times.jpg"
-    },
-    {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/time.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/time.jpg"
-    },
-    {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/ic_general_black_24dp.xml",
         "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/ic_general_black_24dp.xml"
-    },
-    {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/fox_sport.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/fox_sport.jpg"
     },
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
@@ -416,10 +316,6 @@
         "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/drawable/abc_tab_indicator_material.xml"
     },
     {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/hindu.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/hindu.jpg"
-    },
-    {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
         "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/drawable/abc_list_selector_holo_light.xml"
     },
@@ -432,28 +328,28 @@
         "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/ic_gaming_black_24dp.xml"
     },
     {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/newsweek.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/newsweek.jpg"
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/abc_news.png",
+        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/abc_news.png"
+    },
+    {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/google_news.png",
+        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/google_news.png"
     },
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/espn_cric.png",
         "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/espn_cric.png"
     },
     {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/espn.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/espn.jpg"
-    },
-    {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
         "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/drawable/notification_bg.xml"
     },
     {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/the_next_web.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/the_next_web.jpg"
-    },
-    {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/ic_sports_black_24dp.xml",
         "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/ic_sports_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/national_geographic.png",
+        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/national_geographic.png"
     },
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/bbc_sport.png",
@@ -472,14 +368,6 @@
         "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/drawable/abc_item_background_holo_light.xml"
     },
     {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/google.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/google.jpg"
-    },
-    {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/new_scientist.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/new_scientist.jpg"
-    },
-    {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
         "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/drawable/abc_textfield_search_material.xml"
     },
@@ -488,12 +376,8 @@
         "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/main_back.jpg"
     },
     {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/bbc.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/bbc.jpg"
-    },
-    {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/verge.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/verge.jpg"
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/reddit.png",
+        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/reddit.png"
     },
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/football_italia.png",
@@ -506,9 +390,5 @@
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
         "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/drawable/abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/engadget.jpg",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/engadget.jpg"
     }
 ]

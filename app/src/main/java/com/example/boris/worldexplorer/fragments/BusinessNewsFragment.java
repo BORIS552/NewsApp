@@ -21,12 +21,12 @@ import com.example.boris.worldexplorer.fragments.adapters.CustomGridViewAdapter;
 public class BusinessNewsFragment extends Fragment {
 
     private Integer[] thumbBusinessID = {R.drawable.business_insider,R.drawable.financial_times,R.drawable.the_economist,
-                                            R.drawable.wall_street_journal,R.drawable.cnbc,R.drawable.business_insider_uk};
+                                            R.drawable.wall_street_journal,R.drawable.cnbc,R.drawable.business_insider_uk,R.drawable.bloomberg,};
 
-    private String[] newsChannels = {"BUSINESS INSIDER"," FINANCIAL TIMES","THE ECONOMIST","WALLSTREET JOURNAL","CNBC","BUSINESS INSIDER UK"};
+    private String[] newsChannels = {"BUSINESS INSIDER"," FINANCIAL TIMES","THE ECONOMIST","WALLSTREET JOURNAL","CNBC","BUSINESS INSIDER UK","BLOOMBERG"};
 
     private String[] newsSourceUrl = {"source=business-insider&sortBy=top&","source=financial-times&sortBy=top&","source=the-economist&sortBy=top&",
-                                      "source=the-wall-street-journal&sortBy=top&","source=cnbc&sortBy=top&","source=business-insider-uk&sortBy=top&"};
+                                      "source=the-wall-street-journal&sortBy=top&","source=cnbc&sortBy=top&","source=business-insider-uk&sortBy=top&","source=bloomberg&sortBy=top&"};
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         final View vfrag  = inflater.inflate(R.layout.fragment_business,container,false);
