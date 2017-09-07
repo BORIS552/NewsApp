@@ -24,13 +24,11 @@ public class DateFormatter {
     }
 
     public Date convertDate() {
-
         try {
             cal.setTime(f.parse(input));
         }catch (ParseException e) {
             System.out.print("cannot parse the date");
         }
-
         return cal.getTime();
     }
 

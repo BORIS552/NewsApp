@@ -52,18 +52,15 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
     public static class ViewHolder extends RecyclerView.ViewHolder {
 
 
-        public ViewHolder(View v) {
+        public ViewHolder(View v, final Article art) {
             super(v);
-            final CustomAdapter adapter = new CustomAdapter();
-            final Context context = v.getContext();
-            final Article staticArticle = adapter.article;
             // Define click listener for the ViewHolder's View.
-
             v.setOnClickListener(new View.OnClickListener() {
+                String url;
                 @Override
                 public void onClick(View v) {
-                    String URL = adapter.sourceURL;
-                    Log.d(TAG, "Element " + getAdapterPosition() + " clicked.-->"+URL);
+                    url = art.articleList.get(getAdapterPosition()).get("URL");
+                    Log.d(TAG, "Element " + getAdapterPosition() + " clicked.-->"+url);
 
 
                 }
@@ -74,11 +71,6 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
             textView3 = (TextView) v.findViewById(R.id.author);
             textView4 = (TextView) v.findViewById(R.id.date);
         }
-
-         /*public TextView getTextView() {
-
-         return textView;
-         } */
     }
     // END_INCLUDE(recyclerViewSampleViewHolder)
 
@@ -97,7 +89,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
         View v = LayoutInflater.from(viewGroup.getContext())
                 .inflate(R.layout.single_cardview_row, viewGroup, false);
 
-        return new ViewHolder(v);
+        return new ViewHolder(v,article);
     }
     // END_INCLUDE(recyclerViewOnCreateViewHolder)
 
@@ -114,12 +106,12 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
         String title =  article.articleList.get(position).get("title");
         String description = article.articleList.get(position).get("description");
         String imageURL = article.articleList.get(position).get("imageURL");
-        String URL = article.articleList.get(position).get("URL");
+        sourceURL = article.articleList.get(position).get("URL");
         String author = article.articleList.get(position).get("author");
         String date = article.articleList.get(position).get("publishedDate");
         df = new DateFormatter(date);
         Date convertedDate = df.convertDate();
-        System.out.println(URL);
+        System.out.println(sourceURL);
         if(imageURL.trim().length() == 0 ){
             imageView.setImageResource(R.drawable.ic_public_black_24dp);
         }else {
