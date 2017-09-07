@@ -44,7 +44,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textStyle="bold"
-        android:textSize="16dp"
+        android:textSize="16sp"
         android:text="Title"
         android:padding="10dp"
         android:textColor="@color/deep_black"/>
@@ -53,10 +53,32 @@
         android:id="@+id/description"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="14dp"
+        android:textSize="14sp"
         android:textStyle="italic"
         android:text="Description"
         android:padding="10dp"/>
+
+        <TextView
+            android:layout_below="@+id/description"
+            android:id="@+id/author"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:textSize="10sp"
+            android:textStyle="italic"
+            android:text="author"
+            android:paddingStart="10dp"/>
+        <TextView
+            android:layout_below="@+id/description"
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:textSize="10sp"
+            android:textStyle="italic"
+            android:text="date"
+            android:paddingEnd="20dp"/>
+
 
     </RelativeLayout>
 

@@ -12,7 +12,10 @@ import android.widget.TextView;
 
 import com.example.boris.worldexplorer.R;
 import com.example.boris.worldexplorer.model.transaction.Article;
+import com.example.boris.worldexplorer.model.transaction.DateFormatter;
 import com.squareup.picasso.Picasso;
+
+import java.util.Date;
 
 
 /**
@@ -24,40 +27,52 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
 
     private static final String TAG = "CustomAdapter";
     private Context context;
-    //private String[] mDataSet;
     private Article article;
+    private DateFormatter df;
     private int pos;
     private static TextView textView;
     private static TextView textView2;
     private static ImageView imageView;
-
+    private static TextView textView3;
+    private static TextView textView4;
+    private String sourceURL;
     public CustomAdapter() {}
 
     // BEGIN_INCLUDE(recyclerViewSampleViewHolder)
     /**
      * Provide a reference to the type of views that you are using (custom ViewHolder)
      */
+
+    public CustomAdapter(Article article, Context context) {
+        this.context = context;
+        this.article = article;
+        setHasStableIds(true);
+    }
+
     public static class ViewHolder extends RecyclerView.ViewHolder {
 
 
         public ViewHolder(View v) {
             super(v);
-            CustomAdapter adapter = new CustomAdapter();
-            final String URL;
-            final int position = adapter.pos;
-            URL= adapter.article.articleList.get(position).get("URL");
+            final CustomAdapter adapter = new CustomAdapter();
+            final Context context = v.getContext();
+            final Article staticArticle = adapter.article;
             // Define click listener for the ViewHolder's View.
 
             v.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Log.d(TAG, "Element " + getAdapterPosition() + " clicked.");
+                    String URL = adapter.sourceURL;
+                    Log.d(TAG, "Element " + getAdapterPosition() + " clicked.-->"+URL);
+
 
                 }
             });
             textView = (TextView) v.findViewById(R.id.title);
             textView2 = (TextView) v.findViewById(R.id.description);
             imageView = (ImageView) v.findViewById(R.id.newsImage);
+            textView3 = (TextView) v.findViewById(R.id.author);
+            textView4 = (TextView) v.findViewById(R.id.date);
         }
 
          /*public TextView getTextView() {
@@ -72,12 +87,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
      *
      * @param //dataSet String[] containing the data to populate views to be used by RecyclerView.
      */
-    public CustomAdapter(Article article, Context context) {
-        this.context = context;
-        this.article = article;
-        setHasStableIds(true);
-        //mDataSet = dataSet;
-    }
+
 
     // BEGIN_INCLUDE(recyclerViewOnCreateViewHolder)
     // Create new views (invoked by the layout manager)
@@ -104,6 +114,12 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
         String title =  article.articleList.get(position).get("title");
         String description = article.articleList.get(position).get("description");
         String imageURL = article.articleList.get(position).get("imageURL");
+        String URL = article.articleList.get(position).get("URL");
+        String author = article.articleList.get(position).get("author");
+        String date = article.articleList.get(position).get("publishedDate");
+        df = new DateFormatter(date);
+        Date convertedDate = df.convertDate();
+        System.out.println(URL);
         if(imageURL.trim().length() == 0 ){
             imageView.setImageResource(R.drawable.ic_public_black_24dp);
         }else {
@@ -111,6 +127,8 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
         }
         textView.setText(title);
         textView2.setText(description);
+        textView3.setText(author);
+        textView4.setText(convertedDate.toString());
     }
     // END_INCLUDE(recyclerViewOnBindViewHolder)
 
@@ -130,4 +148,5 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
     public int getItemViewType(int position) {
         return position;
     }
+
 }
