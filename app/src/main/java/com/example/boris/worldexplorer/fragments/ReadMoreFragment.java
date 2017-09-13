@@ -18,6 +18,7 @@ import com.example.boris.worldexplorer.R;
 public class ReadMoreFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
         View vfrag = inflater.inflate(R.layout.fragment_readmore,container,false);
         WebView webView = (WebView) vfrag.findViewById(R.id.readmore);
         String url = getArguments().getString("URL");
