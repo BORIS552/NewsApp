@@ -22,10 +22,10 @@ public class ReadMoreFragment extends Fragment {
         View vfrag = inflater.inflate(R.layout.fragment_readmore,container,false);
         WebView webView = (WebView) vfrag.findViewById(R.id.readmore);
         String url = getArguments().getString("URL");
-        webView.loadUrl(url);
+        webView.setWebViewClient(new WebViewClient());
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
-        webView.setWebViewClient(new WebViewClient());
+        webView.loadUrl(url);
         return vfrag;
     }
 }

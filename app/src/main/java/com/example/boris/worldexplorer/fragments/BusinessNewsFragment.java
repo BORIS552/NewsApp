@@ -14,9 +14,11 @@ import android.widget.Toast;
 import com.example.boris.worldexplorer.R;
 import com.example.boris.worldexplorer.fragments.adapters.CustomGridViewAdapter;
 
+
 /**
  * Created by boris on 8/9/17.
  */
+
 
 public class BusinessNewsFragment extends Fragment {
 

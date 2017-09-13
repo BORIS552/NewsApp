@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Sep 13 17:46:09 IST 2017
+#Wed Sep 13 19:20:19 IST 2017
 210.set=ANDROID_RESOURCE
 282.file=/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/resources-debug.ap_/res/drawable/espn_cric.png
 14.set=ANDROID_RESOURCE

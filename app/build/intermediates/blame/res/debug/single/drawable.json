@@ -4,12 +4,12 @@
         "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/ic_business_center_black_24dp.xml"
     },
     {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
-        "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/drawable/abc_ic_clear_material.xml"
-    },
-    {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/bloomberg.png",
         "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/bloomberg.png"
+    },
+    {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
+        "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/drawable/abc_ic_clear_material.xml"
     },
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/telegraph.png",
@@ -172,12 +172,12 @@
         "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/drawable/abc_btn_radio_material.xml"
     },
     {
-        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/metro.png",
-        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/metro.png"
-    },
-    {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
         "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/metro.png",
+        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/metro.png"
     },
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
