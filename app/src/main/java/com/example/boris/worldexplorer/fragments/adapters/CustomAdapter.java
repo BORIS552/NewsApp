@@ -1,16 +1,23 @@
 package com.example.boris.worldexplorer.fragments.adapters;
 
 import android.content.Context;
+import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView.*;
+import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.boris.worldexplorer.R;
+import com.example.boris.worldexplorer.fragments.ReadMoreFragment;
 import com.example.boris.worldexplorer.model.transaction.Article;
 import com.example.boris.worldexplorer.model.transaction.DateFormatter;
 import com.squareup.picasso.Picasso;
@@ -29,7 +36,6 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
     private Context context;
     private Article article;
     private DateFormatter df;
-    private int pos;
     private static TextView textView;
     private static TextView textView2;
     private static ImageView imageView;
@@ -49,12 +55,21 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
         setHasStableIds(true);
     }
 
+
     public static class ViewHolder extends RecyclerView.ViewHolder {
 
+        public static CardView cv;
 
         public ViewHolder(View v, final Article art) {
             super(v);
             // Define click listener for the ViewHolder's View.
+            cv = (CardView) v.findViewById(R.id.cardview);
+            textView = (TextView) v.findViewById(R.id.title);
+            textView2 = (TextView) v.findViewById(R.id.description);
+            imageView = (ImageView) v.findViewById(R.id.newsImage);
+            textView3 = (TextView) v.findViewById(R.id.author);
+            textView4 = (TextView) v.findViewById(R.id.date);
+
             v.setOnClickListener(new View.OnClickListener() {
                 String url;
                 @Override
@@ -62,14 +77,15 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
                     url = art.articleList.get(getAdapterPosition()).get("URL");
                     Log.d(TAG, "Element " + getAdapterPosition() + " clicked.-->"+url);
 
-
+                    AppCompatActivity activity = (AppCompatActivity) v.getContext();
+                    Fragment readMoreFragment = new ReadMoreFragment();
+                    Bundle args = new Bundle();
+                    args.putString("URL",url);
+                    readMoreFragment.setArguments(args);
+                    activity.getSupportFragmentManager().beginTransaction().replace(R.id.main_container, readMoreFragment).addToBackStack(null).commit();
                 }
             });
-            textView = (TextView) v.findViewById(R.id.title);
-            textView2 = (TextView) v.findViewById(R.id.description);
-            imageView = (ImageView) v.findViewById(R.id.newsImage);
-            textView3 = (TextView) v.findViewById(R.id.author);
-            textView4 = (TextView) v.findViewById(R.id.date);
+
         }
     }
     // END_INCLUDE(recyclerViewSampleViewHolder)
@@ -98,7 +114,6 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
     @Override
     public void onBindViewHolder(ViewHolder viewHolder, final int position) {
         Log.d(TAG, "Element " + position + " set.");
-         pos = position;
         //Get element from your dataset at this position and replace the contents of the view
         // with that element
         //viewHolder.getTextView().setText(mDataSet[position]);

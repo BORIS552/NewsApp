@@ -5,7 +5,9 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebSettings;
 import android.webkit.WebView;
+import android.webkit.WebViewClient;
 
 import com.example.boris.worldexplorer.R;
 
@@ -18,6 +20,11 @@ public class ReadMoreFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View vfrag = inflater.inflate(R.layout.fragment_readmore,container,false);
         WebView webView = (WebView) vfrag.findViewById(R.id.readmore);
+        String url = getArguments().getString("URL");
+        webView.loadUrl(url);
+        WebSettings webSettings = webView.getSettings();
+        webSettings.setJavaScriptEnabled(true);
+        webView.setWebViewClient(new WebViewClient());
         return vfrag;
     }
 }
