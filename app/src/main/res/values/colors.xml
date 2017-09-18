@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#000000</color>
-    <color name="colorPrimaryDark">#000000</color>
-    <color name="colorAccent">#000000</color>
+    <color name="colorPrimary">#6A1B9A</color>
+    <color name="colorPrimaryDark">#7B1FA2</color>
+    <color name="colorAccent">#8E24AA</color>
     <color name="viewBg">#f1f5f8</color>
     <color name="album_title">#4c4c4c</color>
     <color name="deep_black">#000000</color>
-    <color name="cardview_initial_background">#71C3DE</color>
+    <color name="cardview_initial_background">#8E24AA</color>
     <color name="background_white">#FFFFFF</color>
 </resources>
 
