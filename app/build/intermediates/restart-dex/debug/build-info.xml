@@ -6,7 +6,7 @@
     density="420dpi"
     format="10"
     plugin-version="2.3.2"
-    timestamp="1505742031966"
+    timestamp="1505749706638"
     token="-877133590322555722"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -29,7 +29,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1505740920320"
+        timestamp="1505748816366"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/boris/Desktop/Android_git/NewsApp/app/build/outputs/apk/app-debug.apk"
@@ -70,7 +70,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1505742031966"
+        timestamp="1505749706638"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/boris/Desktop/Android_git/NewsApp/app/build/outputs/apk/app-debug.apk"

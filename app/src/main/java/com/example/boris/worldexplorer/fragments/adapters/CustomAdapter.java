@@ -76,7 +76,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
                     Bundle args = new Bundle();
                     args.putString("URL",url);
                     readMoreFragment.setArguments(args);
-                    activity.getSupportFragmentManager().beginTransaction().replace(R.id.main_container, readMoreFragment).commit();
+                    activity.getSupportFragmentManager().beginTransaction().replace(R.id.main_container, readMoreFragment).addToBackStack(null).commit();
                 }
             });
 

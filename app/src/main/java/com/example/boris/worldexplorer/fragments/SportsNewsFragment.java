@@ -47,7 +47,7 @@ public class SportsNewsFragment extends Fragment {
                 args.putString("URL", newsSourceUrl[position]);
                 recyclerViewFragment.setArguments(args);
                 fragmentTransaction.replace(R.id.main_container,recyclerViewFragment);
-                fragmentTransaction.commit();
+                fragmentTransaction.addToBackStack(null).commit();
 
             }
         });

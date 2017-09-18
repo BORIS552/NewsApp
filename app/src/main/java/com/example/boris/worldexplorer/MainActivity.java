@@ -61,6 +61,12 @@ public class MainActivity extends AppCompatActivity {
         fragmentTransaction.replace(R.id.main_container,new GeneralNewsFragment()).commit();
     }
 
+    @Override
+    public void onBackPressed() {
+        if (!getFragmentManager().popBackStackImmediate()) {
+            super.onBackPressed();
+        }
+    }
 
 
 }

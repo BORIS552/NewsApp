@@ -4,11 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_marginTop="10dp"
+    android:layout_marginTop="0dp"
     android:paddingTop="0dp"
-    android:paddingRight="5dp"
-    android:paddingLeft="5dp"
-    android:paddingBottom="0dp">
+    android:paddingRight="0dp"
+    android:paddingLeft="0dp"
+    android:paddingBottom="0dp"
+    android:background="@color/background_white">
+
     <GridView
         android:id="@+id/gridview_general"
         android:layout_width="match_parent"
@@ -18,5 +20,7 @@
         android:horizontalSpacing="10dp"
         android:stretchMode="columnWidth"
         android:gravity="center"
-        android:numColumns="2" />
+        android:numColumns="2"
+        android:paddingTop="5dp"
+        />
 </LinearLayout>

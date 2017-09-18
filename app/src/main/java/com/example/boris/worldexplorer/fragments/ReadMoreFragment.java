@@ -2,6 +2,7 @@ package com.example.boris.worldexplorer.fragments;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,6 +17,7 @@ import com.example.boris.worldexplorer.R;
  */
 
 public class ReadMoreFragment extends Fragment {
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,4 +30,6 @@ public class ReadMoreFragment extends Fragment {
         webView.loadUrl(url);
         return vfrag;
     }
+
+
 }

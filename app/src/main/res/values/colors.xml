@@ -8,6 +8,7 @@
     <color name="deep_black">#000000</color>
     <color name="cardview_initial_background">#8E24AA</color>
     <color name="background_white">#FFFFFF</color>
+    <color name="colorPrimaryTooDark">#000000</color>
 </resources>
 
 <!-- #2980B9 -->
