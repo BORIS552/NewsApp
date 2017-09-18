@@ -80,6 +80,14 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
                 }
             });
 
+            v.setOnLongClickListener(new View.OnLongClickListener() {
+                @Override
+                public boolean onLongClick(View view){
+
+                    return true;
+                }
+            });
+
         }
     }
 
@@ -99,10 +107,13 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
         Log.d(TAG, "Element " + position + " set.");
         imageView.setElevation(20);
         String title =  article.articleList.get(position).get("title");
+        title = testNull(title);
         String description = article.articleList.get(position).get("description");
+        description = testNull(description);
         String imageURL = article.articleList.get(position).get("imageURL");
         sourceURL = article.articleList.get(position).get("URL");
         String author = article.articleList.get(position).get("author");
+        author = testNull(author);
         String date = article.articleList.get(position).get("publishedDate");
         df = new DateFormatter(date);
         Date convertedDate = df.convertDate();
@@ -132,6 +143,14 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
     @Override
     public int getItemViewType(int position) {
         return position;
+    }
+
+    private String testNull(String text){
+        if(text == null)
+            text  = " ";
+        else if(text.equals("null"))
+            text = " ";
+        return text;
     }
 
 }
