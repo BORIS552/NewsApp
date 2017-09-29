@@ -3,6 +3,11 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background_white">
+    <ProgressBar android:id="@+id/webProgressBar"
+        style="?android:attr/progressBarStyleHorizontal" android:layout_width="fill_parent"
+        android:layout_height="wrap_content" android:layout_centerVertical="true"
+        android:padding="2dip">
+    </ProgressBar>
     <WebView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
