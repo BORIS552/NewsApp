@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.CardView;
+import android.support.v7.widget.PopupMenu;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -55,7 +56,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
 
         public static CardView cv;
 
-        public ViewHolder(View v, final Article art) {
+        public ViewHolder(final View v, final Article art) {
             super(v);
             cv = (CardView) v.findViewById(R.id.cardview);
             textView = (TextView) v.findViewById(R.id.title);
@@ -81,6 +82,8 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
             });
 
             v.setOnLongClickListener(new View.OnLongClickListener() {
+                PopupMenu popup = new PopupMenu(v.getContext(),cv);
+
                 @Override
                 public boolean onLongClick(View view){
 
