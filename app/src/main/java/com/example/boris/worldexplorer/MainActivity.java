@@ -1,6 +1,8 @@
 package com.example.boris.worldexplorer;
 
 
+import android.app.ActionBar;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -30,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
             switch (item.getItemId()) {
                 case R.id.navigation_general:
                     fragmentTransaction.replace(R.id.main_container, new GeneralNewsFragment()).commit();
+                    getSupportActionBar().setBackgroundDrawable(new ColorDrawable(getResources().getColor(R.color.colorPrimary)));
                     return true;
                 case R.id.navigation_sports:
                     fragmentTransaction.replace(R.id.main_container, new SportsNewsFragment()).commit();
