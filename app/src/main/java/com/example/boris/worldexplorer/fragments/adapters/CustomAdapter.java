@@ -11,6 +11,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -39,6 +40,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
     private static ImageView imageView;
     private static TextView textView3;
     private static TextView textView4;
+    private static Button bookmark;
     private String sourceURL;
 
     //default
@@ -64,6 +66,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
             imageView = (ImageView) v.findViewById(R.id.newsImage);
             textView3 = (TextView) v.findViewById(R.id.author);
             textView4 = (TextView) v.findViewById(R.id.date);
+            bookmark = (Button) v.findViewById(R.id.bookmark);
 
             v.setOnClickListener(new View.OnClickListener() {
                 String url;
@@ -106,7 +109,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
 
 
     @Override
-    public void onBindViewHolder(ViewHolder viewHolder, final int position) {
+    public void onBindViewHolder(final ViewHolder viewHolder, final int position) {
         Log.d(TAG, "Element " + position + " set.");
         imageView.setElevation(20);
         String title =  article.articleList.get(position).get("title");
@@ -130,6 +133,13 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomAdapter.ViewHolder
         textView2.setText(description);
         textView3.setText(author);
         textView4.setText(convertedDate.toString());
+        bookmark.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                System.out.println("Adding the news to bookmark");
+                bookmark.setBackground(v.getResources().getDrawable(R.drawable.ic_turned_in_black_24dp));
+            }
+        });
     }
 
     @Override

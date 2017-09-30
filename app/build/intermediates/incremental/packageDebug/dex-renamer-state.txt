@@ -1,4 +1,4 @@
-#Sat Sep 30 14:10:18 IST 2017
+#Sat Sep 30 15:26:22 IST 2017
 base.0=/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_126826405a4a5f1e912ea480b022a5fba9bde464
 renamed.1=classes.dex
 renamed.0=classes2.dex

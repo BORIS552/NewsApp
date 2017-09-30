@@ -40,6 +40,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.boris.worldexplorer.LoginActivity" />
+        <activity android:name="com.example.boris.worldexplorer.BookMarkActivity" />
 
         <provider
             android:name="com.android.tools.fd.runtime.InstantRunContentProvider"

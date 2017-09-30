@@ -7,4 +7,11 @@
         android:title="Hello there"
         app:showAsAction="ifRoom"/>
 
+    <item
+        android:id="@+id/action_bookmark"
+        android:icon="@drawable/bookmark"
+        android:title="Hello there"
+        app:showAsAction="ifRoom"
+        />
+
 </menu>

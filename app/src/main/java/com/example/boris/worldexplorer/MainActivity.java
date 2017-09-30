@@ -92,6 +92,10 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(this, LoginActivity.class);
                 startActivity(intent);
                  return  true;
+            case R.id.action_bookmark:
+                System.out.println("BookMark clicked");
+                Intent intent2 = new Intent(this, BookMarkActivity.class);
+                startActivity(intent2);
             default:
                 return super.onOptionsItemSelected(item);
 

@@ -48,6 +48,17 @@
         android:text="Title"
         android:padding="10dp"
         android:textColor="@color/deep_black"/>
+
+        <Button
+            android:layout_width="18dp"
+            android:layout_height="25dp"
+            android:id="@+id/bookmark"
+            android:layout_below="@+id/title"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:background="@drawable/ic_turned_in_not_black_24dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"/>
     <TextView
         android:layout_below="@+id/title"
         android:id="@+id/description"
@@ -80,7 +91,6 @@
             android:text="date"
             android:paddingEnd="20dp"
             android:paddingBottom="5dp"/>
-
 
     </RelativeLayout>
 

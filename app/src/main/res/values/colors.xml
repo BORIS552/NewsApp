@@ -12,6 +12,7 @@
     <color name="materialBlue">#1A237E</color>
     <color name="navColor">#C2185B</color>
     <color name="loginPageBack">#009688</color>
+    <color name="bookMarkBack">#880E4F</color>
 </resources>
 
 <!-- #2980B9 -->

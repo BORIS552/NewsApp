@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="f22aae097b66a281cbfb90fd2acb9e444b2d499e">
-        <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_126826405a4a5f1e912ea480b022a5fba9bde464/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/boris/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
         sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
         <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_ee7445520db0968d0e0ff214f5c378a331ff4f23/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0b0dd82c96b037b6e537457b3fcf48c81d54ff85">
+        <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_126826405a4a5f1e912ea480b022a5fba9bde464/classes.dex" />
     </item>
     <item
         is-multidex="false"
