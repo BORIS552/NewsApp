@@ -4,11 +4,14 @@ import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v7.widget.CardView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.GridView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.boris.worldexplorer.R;
@@ -22,6 +25,8 @@ import com.example.boris.worldexplorer.fragments.adapters.CustomGridViewAdapter;
 
 public class BusinessNewsFragment extends Fragment {
 
+    private int size;
+
     private Integer[] thumbBusinessID = {R.drawable.business_insider,R.drawable.financial_times,R.drawable.the_economist,
                                             R.drawable.wall_street_journal,R.drawable.cnbc,R.drawable.business_insider_uk,R.drawable.bloomberg,};
 
@@ -29,11 +34,16 @@ public class BusinessNewsFragment extends Fragment {
 
     private String[] newsSourceUrl = {"source=business-insider&sortBy=top&","source=financial-times&sortBy=top&","source=the-economist&sortBy=top&",
                                       "source=the-wall-street-journal&sortBy=top&","source=cnbc&sortBy=top&","source=business-insider-uk&sortBy=top&","source=bloomberg&sortBy=top&"};
+
+
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         final View vfrag  = inflater.inflate(R.layout.fragment_business,container,false);
         GridView gridView = (GridView) vfrag.findViewById(R.id.gridview_business);
+        size = newsChannels.length;
         gridView.setAdapter(new CustomGridViewAdapter(vfrag.getContext(),newsChannels,thumbBusinessID));
+        CardView imageCard = (CardView) vfrag.findViewById((R.id.imagecontainer));
 
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View v,
@@ -50,6 +60,9 @@ public class BusinessNewsFragment extends Fragment {
                 fragmentTransaction.addToBackStack(null).commit();
             }
         });
+
         return vfrag;
     }
+
+
 }
