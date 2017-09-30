@@ -2,12 +2,15 @@ package com.example.boris.worldexplorer;
 
 
 import android.app.ActionBar;
+import android.content.Intent;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 
 import com.example.boris.worldexplorer.fragments.BusinessNewsFragment;
@@ -70,6 +73,33 @@ public class MainActivity extends AppCompatActivity {
             super.onBackPressed();
         }
     }
+
+
+    //code for handling login option in action Bar.
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item)
+    {
+        switch (item.getItemId()) {
+            case R.id.action_login:
+                    System.out.println("Login Clicked");
+                Intent intent = new Intent(this, LoginActivity.class);
+                startActivity(intent);
+                 return  true;
+            default:
+                return super.onOptionsItemSelected(item);
+
+
+        }
+
+    }
+
 
 
 }

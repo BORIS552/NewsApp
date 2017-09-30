@@ -39,6 +39,7 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
+        <activity android:name="com.example.boris.worldexplorer.LoginActivity" />
 
         <provider
             android:name="com.android.tools.fd.runtime.InstantRunContentProvider"
