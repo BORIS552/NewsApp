@@ -47,5 +47,16 @@
             android:gravity="center"
             android:textColor="@color/deep_black"
             android:textStyle="bold"/>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:id="@+id/favIcon"
+                android:background="@drawable/ic_favorite_border_black_24dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="15dp"/>
+        </RelativeLayout>
     </LinearLayout>
 </android.support.v7.widget.CardView>
