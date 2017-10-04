@@ -28,11 +28,18 @@ public class SportsNewsFragment extends Fragment {
     private String[] newsSourceUrl = {"source=espn&sortBy=top&","source=bbc-sport&sortBy=top&","source=fox-sports&sortBy=top&",
                                       "source=football-italia&sortBy=top&","source=the-sport-bible&sortBy=top&","source=talksport&sortBy=top&","source=four-four-two&sortBy=top&"
                                         ,"source=nfl-news&sortBy=top&","source=espn-cric-info&sortBy=top&"};
+
+
+    //dummy
+    private String[] channelIDs = {"genBBC0","genCNN1","genGUA2","genHIN3","genTEL4","genTOI5","genGOO6","genTIM7","genFOC8"
+            ,"genMET9","genNYT10","genRED11","genHUFF12","genWAS13","genUSA14","genABC15"};
+    private Integer[] wishListStatus = {0,1,1,0,0,0,1,0,0,0,0,1,0,0,1,0};
+    //val
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         final View vfrag  = inflater.inflate(R.layout.fragment_sportsnews,container,false);
         GridView gridView = (GridView) vfrag.findViewById(R.id.gridview_sports);
-        gridView.setAdapter(new CustomGridViewAdapter(vfrag.getContext(),newsChannelSports,thumbSportsID));
+        gridView.setAdapter(new CustomGridViewAdapter(vfrag.getContext(),newsChannelSports,thumbSportsID,channelIDs,wishListStatus));
 
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View v,

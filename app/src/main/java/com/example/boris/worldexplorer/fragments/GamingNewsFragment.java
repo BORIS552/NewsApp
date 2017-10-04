@@ -23,11 +23,17 @@ public class GamingNewsFragment extends Fragment {
     private Integer[] thumbGamingID = {R.drawable.ign,R.drawable.polygon,R.drawable.verge};
     private String[] newsChannelGaming = {"IGN","POLYGON","THE VERGE"};
     private String[] newsSourceUrl = {"source=ign&sortBy=top&","source=polygon&sortBy=top&","source=the-verge&sortBy=top&"};
+
+    //dummy
+    private String[] channelIDs = {"genBBC0","genCNN1","genGUA2","genHIN3"};
+    private Integer[] wishListStatus = {0,1,1,0};
+    //val
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         final View vfrag  = inflater.inflate(R.layout.fragment_gaming,container,false);
         GridView gridView = (GridView) vfrag.findViewById(R.id.gridview_gaming);
-        gridView.setAdapter(new CustomGridViewAdapter(vfrag.getContext(),newsChannelGaming,thumbGamingID));
+        gridView.setAdapter(new CustomGridViewAdapter(vfrag.getContext(),newsChannelGaming,thumbGamingID,channelIDs,wishListStatus));
 
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View v,

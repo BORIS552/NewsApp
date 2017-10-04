@@ -30,11 +30,18 @@ public class TechnologyNewsFragment extends Fragment {
                                        "source=recode&sortBy=top&","source=new-scientist&sortBy=top&","source=mashable&sortBy=top&",
                                        "source=hacker-news&sortBy=top&","source=the-next-web&sortBy=latest&","source=ars-technica&sortBy=top&"};
 
+
+
+    //dummy
+    private String[] channelIDs = {"genBBC0","genCNN1","genGUA2","genHIN3","genTEL4","genTOI5","genGOO6","genTIM7","genFOC8"
+            ,"genMET9","genNYT10","genRED11","genHUFF12","genWAS13","genUSA14","genABC15"};
+    private Integer[] wishListStatus = {0,1,1,0,0,0,1,0,0,0,0,1,0,0,1,0};
+    //val
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         final View vfrag  = inflater.inflate(R.layout.fragment_technology,container,false);
         GridView gridView = (GridView) vfrag.findViewById(R.id.gridview_technology);
-        gridView.setAdapter(new CustomGridViewAdapter(vfrag.getContext(),newsChannels,thumbTechnologyID));
+        gridView.setAdapter(new CustomGridViewAdapter(vfrag.getContext(),newsChannels,thumbTechnologyID,channelIDs,wishListStatus));
 
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View v,
