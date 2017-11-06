@@ -8,6 +8,14 @@
         "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
     },
     {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/anim/bounce.xml",
+        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/anim/bounce.xml"
+    },
+    {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/anim/blink.xml",
+        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/anim/blink.xml"
+    },
+    {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
         "source": "/Users/boris/.android/build-cache/03e51a9a06fbbc87b76cef769a1ae722da1b3fe2/output/res/anim/design_snackbar_out.xml"
     },
@@ -20,8 +28,16 @@
         "source": "/Users/boris/.android/build-cache/03e51a9a06fbbc87b76cef769a1ae722da1b3fe2/output/res/anim/design_snackbar_in.xml"
     },
     {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/anim/fade_in.xml",
+        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/anim/fade_in.xml"
+    },
+    {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
         "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/anim/shake.xml",
+        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/anim/shake.xml"
     },
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",

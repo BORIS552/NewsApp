@@ -11,7 +11,7 @@
     tools:context="com.example.boris.worldexplorer.SignupActivity">
 
     <android.support.v7.widget.CardView
-        android:id="@+id/cardview"
+        android:id="@+id/cardviewSignup"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:elevation="100dp"
