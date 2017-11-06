@@ -26,7 +26,7 @@ public class SignupActivity extends AppCompatActivity {
     private ProgressBar pbar;
     private FirebaseAuth auth;
     private DatabaseReference databaseUsers;
-    private User user = new User();
+    private User user;
     //private FirebaseDatabase mFirebaseInstance;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,7 +54,7 @@ public class SignupActivity extends AppCompatActivity {
             public void onClick(View v){
                 String email = inputEmail.getText().toString().trim();
                 String password = inputPassword.getText().toString().trim();
-                String username = userName.getText().toString();
+                final String username = userName.getText().toString();
                 if(TextUtils.isEmpty(username)){
                     Toast.makeText(getApplicationContext(), "Enter your Name!",Toast.LENGTH_SHORT).show();
                     return;
@@ -71,7 +71,6 @@ public class SignupActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "Weak Password! Enter more than 6 characters",Toast.LENGTH_SHORT).show();
                     return;
                 }
-                user.setName(username);
 
                 final String id = databaseUsers.push().getKey();
 
@@ -85,7 +84,8 @@ public class SignupActivity extends AppCompatActivity {
                                 if(!task.isSuccessful()){
                                     Toast.makeText(SignupActivity.this, "Authentication Failed."+task.getException(),Toast.LENGTH_SHORT).show();
                                 }else{
-                                    databaseUsers.child(id).setValue(user.getName());
+                                    user = new User(username,auth.getCurrentUser().toString());
+                                    databaseUsers.child(id).setValue(user);
                                     finish();
                                 }
                             }

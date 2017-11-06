@@ -12,12 +12,48 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/boris/.android/build-cache/880cfc511b05a379043a41afa533a2b2e0ae6c8f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8040d53ecd4bd895360eafdc25e1c1cc9479e6aa">
+        <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/pre-dexed/debug/classes_7a2fdbdbf303cc33d5f1a706be30c90a3b9b9ce1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/boris/.android/build-cache/3d60daab58ebf7a1666db47e22a06c303e31bc38/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="73c80b05a390e8319d1ef7a236739cd610c8f774">
+        <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/pre-dexed/debug/classes_aea091befbbc12475b8c8b75073090957c2e92bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/boris/.android/build-cache/866d766b0692303eb7c7568a7dcf617c8e27aa56/output/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="20d6aa9a18ea9833cd2bee95dff7cd303cdb80e4">
         <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/pre-dexed/debug/classes_ca03b54ac0615707fe2d6e990185d387544401f7.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="755d86b8f710864e1a45a047627e02e507d2a04a">
+        <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_126826405a4a5f1e912ea480b022a5fba9bde464/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2d45b277afdf55bcfdc005c03c0c2f1733aaa1b0">
+        <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/pre-dexed/debug/classes_697a29f62db29130f03db7833693d758e4c074a1.jar" />
     </item>
     <item
         is-multidex="false"
@@ -39,48 +75,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/boris/.android/build-cache/8e5e1c06d55cb9ac6ef873759fe32b1abd1ad427/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="5f519b8c692038a47ee404b6ea6b847f6402000c">
-        <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/pre-dexed/debug/classes_689adf4bd642857f466df6a9605b5c4d1e3f5504.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/boris/.android/build-cache/880cfc511b05a379043a41afa533a2b2e0ae6c8f/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="8040d53ecd4bd895360eafdc25e1c1cc9479e6aa">
-        <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/pre-dexed/debug/classes_7a2fdbdbf303cc33d5f1a706be30c90a3b9b9ce1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/boris/.android/build-cache/3d60daab58ebf7a1666db47e22a06c303e31bc38/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="73c80b05a390e8319d1ef7a236739cd610c8f774">
-        <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/pre-dexed/debug/classes_aea091befbbc12475b8c8b75073090957c2e92bc.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="2d45b277afdf55bcfdc005c03c0c2f1733aaa1b0">
-        <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/pre-dexed/debug/classes_697a29f62db29130f03db7833693d758e4c074a1.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/boris/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
         <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_53f1af74b46e8cc36396aaa8011865088512f1fd.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_486a247208f1a456c66a7ba3c3f901004617f03b/classes.dex" />
     </item>
     <item
         is-multidex="false"
@@ -90,6 +99,15 @@
         revision="25.0.3"
         sha1="c2cadea4d8a1a5b5c4e5f0dc99a99a43774f5e6e">
         <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/pre-dexed/debug/classes_60c56d3d95a4568a79984121ed5554187ba7a772.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/boris/.android/build-cache/8e5e1c06d55cb9ac6ef873759fe32b1abd1ad427/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5f519b8c692038a47ee404b6ea6b847f6402000c">
+        <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/pre-dexed/debug/classes_689adf4bd642857f466df6a9605b5c4d1e3f5504.jar" />
     </item>
     <item
         is-multidex="false"

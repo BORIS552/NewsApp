@@ -10,47 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e134be07-7eff-4fb2-95cd-0aee1ba64ec3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0d8265a8b0c8c0ff38aeae55fe69b89b89e59cdc/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0dd12ef664e71b96756d3197f82de0ee0ddb7fed/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3f5a0aea67cf2fc221ad8b44d08575f1b55a0582/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4074230cf288c1e7cef43b198bb98c9c91d8f147/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4e19b7542ee4342db60cac7b775f38795f1dd743/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5224a1d731efaa8864201383929cb288761c810f/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_56842f8df3362037ac0b75467215755a48840315/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_60c56d3d95a4568a79984121ed5554187ba7a772/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_689adf4bd642857f466df6a9605b5c4d1e3f5504/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_697a29f62db29130f03db7833693d758e4c074a1/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7a2fdbdbf303cc33d5f1a706be30c90a3b9b9ce1/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_86db8aebcb5ab38894656448c86c9aec39b45f2b/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8d59e9b48e164c1e68d85a20d445746d6f200ed1/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a3c2efad566ff8f679027769a2c42e73231d4291/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_abce3473fe6cd060b6e41d93252299f018f6d44c/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_aea091befbbc12475b8c8b75073090957c2e92bc/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_aef0dce4fb471d633aff64033427376cb646b93c/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b5f745d27f994d77020f508d1df980bd3be3aa55/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c6c706a434d50c587b9d8af73c68794061a1089f/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ca03b54ac0615707fe2d6e990185d387544401f7/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cef7d85ffa382310020f0f62631d542582492155/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e24d6358b8256029a775ece846fde86a50419a3c/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ed0f7736077552d1fbe44b90c2022be4eccef84a/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fa2c12f25462ad41c28225ac5f997c9f95cd40ed/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_ee7445520db0968d0e0ff214f5c378a331ff4f23/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-1.0.19_b6d14086d01001604bd424467df2468f1663d9c6/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_53f1af74b46e8cc36396aaa8011865088512f1fd/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.1_5c7be1197986173b95b04e61a6922645410ea906/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_126826405a4a5f1e912ea480b022a5fba9bde464/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_486a247208f1a456c66a7ba3c3f901004617f03b/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_0/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_8/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_9/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
@@ -60,24 +20,23 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/boris/worldexplorer/SignupActivity$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/boris/worldexplorer/SignupActivity$1$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/boris/worldexplorer/SignupActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/boris/worldexplorer/SignupActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/boris/worldexplorer/SignupActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/boris/worldexplorer/SignupActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/boris/worldexplorer/SignupActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/boris/worldexplorer/SignupActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/boris/worldexplorer/model/transaction/User.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/boris/worldexplorer/model/transaction/User.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/boris/worldexplorer/SignupActivity$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/boris/worldexplorer/SignupActivity$1$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/boris/worldexplorer/SignupActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/boris/worldexplorer/SignupActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/boris/worldexplorer/SignupActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/boris/worldexplorer/SignupActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/boris/worldexplorer/SignupActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/boris/worldexplorer/SignupActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/boris/worldexplorer/model/transaction/User.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/example/boris/worldexplorer/model/transaction/User.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/XbmfcZamrTMY+xKAfgTVH8DspiQ=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/XbmfcZamrTMY+xKAfgTVH8DspiQ=" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_200ed224b77966302b3ce2b5757f5af513effd66.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_200ed224b77966302b3ce2b5757f5af513effd66.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_6.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_6.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_7.apk" afterPath="$PROJECT_DIR$/app/build/intermediates/split-apk/debug/slices/slice_7.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/boris/worldexplorer/SignupActivity$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/boris/worldexplorer/SignupActivity$1$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/boris/worldexplorer/SignupActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/boris/worldexplorer/SignupActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/boris/worldexplorer/SignupActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/boris/worldexplorer/SignupActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/boris/worldexplorer/SignupActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/boris/worldexplorer/SignupActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/boris/worldexplorer/model/transaction/User.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/example/boris/worldexplorer/model/transaction/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/example/boris/worldexplorer/model/transaction/User.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/com/example/boris/worldexplorer/model/transaction/User.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/example/boris/worldexplorer/SignupActivity$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/example/boris/worldexplorer/SignupActivity$1$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/example/boris/worldexplorer/SignupActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/example/boris/worldexplorer/SignupActivity$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/example/boris/worldexplorer/SignupActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/example/boris/worldexplorer/SignupActivity$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/example/boris/worldexplorer/SignupActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/example/boris/worldexplorer/SignupActivity.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
@@ -85,8 +44,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_6/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_6/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_7/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/package_slice_7/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/buildId.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_6/buildId.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/buildId.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/buildId.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/boris/worldexplorer/SignupActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/boris/worldexplorer/SignupActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/boris/worldexplorer/model/transaction/User.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/boris/worldexplorer/model/transaction/User.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
     <ignored path="NewsApp.iws" />
@@ -166,7 +127,7 @@
       <file leaf-file-name="LogoutActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/boris/worldexplorer/LogoutActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
+            <state relative-caret-position="146">
               <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
               <folding>
                 <element signature="e#1702#2139#0" expanded="true" />
@@ -180,16 +141,16 @@
       <file leaf-file-name="SignupActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/boris/worldexplorer/SignupActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-664">
-              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+            <state relative-caret-position="-93">
+              <caret line="87" column="75" selection-start-line="87" selection-start-column="75" selection-end-line="87" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1974#4317#0" expanded="true" />
-                <element signature="e#3349#4288#0" expanded="true" />
-                <element signature="e#4287#4288#0" expanded="true" />
-                <element signature="e#4316#4317#0" expanded="true" />
-                <element signature="e#4357#4593#0" expanded="true" />
-                <element signature="e#4592#4593#0" expanded="true" />
+                <element signature="e#1961#4356#0" expanded="true" />
+                <element signature="e#3302#4327#0" expanded="true" />
+                <element signature="e#4326#4327#0" expanded="true" />
+                <element signature="e#4355#4356#0" expanded="true" />
+                <element signature="e#4396#4632#0" expanded="true" />
+                <element signature="e#4631#4632#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -199,12 +160,12 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/boris/worldexplorer/model/transaction/User.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
               <folding>
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#233#234#0" expanded="true" />
-                <element signature="e#263#264#0" expanded="true" />
-                <element signature="e#295#296#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#390#391#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -3526,22 +3487,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/boris/worldexplorer/model/transaction/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/boris/worldexplorer/LogoutActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
+        <state relative-caret-position="146">
           <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
           <folding>
             <element signature="e#1702#2139#0" expanded="true" />
@@ -3551,18 +3499,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/boris/worldexplorer/model/transaction/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/boris/worldexplorer/SignupActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-664">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        <state relative-caret-position="-93">
+          <caret line="87" column="75" selection-start-line="87" selection-start-column="75" selection-end-line="87" selection-end-column="75" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1974#4317#0" expanded="true" />
-            <element signature="e#3349#4288#0" expanded="true" />
-            <element signature="e#4287#4288#0" expanded="true" />
-            <element signature="e#4316#4317#0" expanded="true" />
-            <element signature="e#4357#4593#0" expanded="true" />
-            <element signature="e#4592#4593#0" expanded="true" />
+            <element signature="e#1961#4356#0" expanded="true" />
+            <element signature="e#3302#4327#0" expanded="true" />
+            <element signature="e#4326#4327#0" expanded="true" />
+            <element signature="e#4355#4356#0" expanded="true" />
+            <element signature="e#4396#4632#0" expanded="true" />
+            <element signature="e#4631#4632#0" expanded="true" />
           </folding>
         </state>
       </provider>
