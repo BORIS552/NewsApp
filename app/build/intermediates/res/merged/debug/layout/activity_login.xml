@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="80dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:background="@color/loginBack"
+    tools:context="com.example.boris.worldexplorer.LoginActivity">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:elevation="100dp"
+        card_view:cardBackgroundColor="@color/background_white"
+        card_view:cardCornerRadius="10dp"
+        card_view:cardElevation="8dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="center_horizontal"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="8dp">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:inputType="textEmailAddress"
+                android:id="@+id/emaillogin"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:hint="Enter Gmail ID"
+                />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:inputType="textPassword"
+                android:id="@+id/passwordlogin"
+                android:hint="Password"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:layout_below="@+id/emaillogin" />
+            <Button
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/loginButton"
+                android:id="@+id/login"
+                android:textStyle="bold"
+                android:layout_below="@+id/passwordlogin"
+                android:text="Log In"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:text="Not a user yet:"
+                android:id="@+id/textdum"
+                android:layout_below="@+id/login"/>
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:id="@+id/signupSec"
+                android:text="Sign Up"
+                android:background="@color/login"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/textdum"/>
+            <ProgressBar
+                android:id="@+id/progressBar2"
+                android:layout_below="@+id/signupSec"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginBottom="20dp"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "986734962271",
+    "firebase_url": "https://newsappfirebase-64c0d.firebaseio.com",
+    "project_id": "newsappfirebase-64c0d",
+    "storage_bucket": "newsappfirebase-64c0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986734962271:android:b3418d04dc62df9e",
+        "android_client_info": {
+          "package_name": "com.example.boris.worldexplorer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "986734962271-q0qg6b5fb8kpe7vkllfhlci895kh3g7t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAReP_38L6ZI-MWazHANNzHu5Xs-BeEffg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

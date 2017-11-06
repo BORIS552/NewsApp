@@ -112,6 +112,10 @@
         "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/layout/abc_action_bar_up_container.xml"
     },
     {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/layout/activity_logout.xml",
+        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/layout/activity_logout.xml"
+    },
+    {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
         "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/layout/notification_template_part_chronometer.xml"
     },
@@ -122,6 +126,14 @@
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
         "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/layout/activity_signup.xml",
+        "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/layout/activity_signup.xml"
     },
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",

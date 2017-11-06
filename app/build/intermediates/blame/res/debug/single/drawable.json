@@ -76,6 +76,10 @@
         "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_normal.xml",
+        "source": "/Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/login.png",
         "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/login.png"
     },
@@ -94,6 +98,10 @@
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/ic_public_black_24dp.xml",
         "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/ic_public_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/res/drawable/common_google_signin_btn_icon_light.xml"
     },
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/verge.png",
@@ -132,6 +140,10 @@
         "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/tech_crunch.png"
     },
     {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "/Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/nfl.png",
         "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/nfl.png"
     },
@@ -148,12 +160,24 @@
         "source": "/Users/boris/.android/build-cache/03e51a9a06fbbc87b76cef769a1ae722da1b3fe2/output/res/drawable/design_fab_background.xml"
     },
     {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_normal.xml",
+        "source": "/Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/res/drawable/common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
+        "source": "/Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/cnbc.png",
         "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/cnbc.png"
     },
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
         "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_disabled.xml",
+        "source": "/Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/res/drawable/common_google_signin_btn_text_disabled.xml"
     },
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
@@ -186,6 +210,10 @@
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
         "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/res/drawable/common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
@@ -316,12 +344,20 @@
         "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/talk_sport.png"
     },
     {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/ic_general_black_24dp.xml",
         "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/ic_general_black_24dp.xml"
     },
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
         "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/res/drawable/common_google_signin_btn_text_dark_normal.xml"
     },
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
@@ -344,6 +380,10 @@
         "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/drawable/notification_icon_background.xml"
     },
     {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_focused.xml",
+        "source": "/Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/res/drawable/common_google_signin_btn_text_light_focused.xml"
+    },
+    {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/ic_gaming_black_24dp.xml",
         "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/ic_gaming_black_24dp.xml"
     },
@@ -354,6 +394,14 @@
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/google_news.png",
         "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/google_news.png"
+    },
+    {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_normal.xml",
+        "source": "/Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/res/drawable/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_focused.xml",
+        "source": "/Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/res/drawable/common_google_signin_btn_text_dark_focused.xml"
     },
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/espn_cric.png",
@@ -380,12 +428,20 @@
         "source": "/Users/boris/.android/build-cache/03e51a9a06fbbc87b76cef769a1ae722da1b3fe2/output/res/drawable/navigation_empty_icon.xml"
     },
     {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_disabled.xml",
+        "source": "/Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/res/drawable/common_google_signin_btn_icon_disabled.xml"
+    },
+    {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/wall_street_journal.png",
         "source": "/Users/boris/Desktop/Android_git/NewsApp/app/src/main/res/drawable/wall_street_journal.png"
     },
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
         "source": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/res/drawable/common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",

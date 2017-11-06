@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/boris/Desktop/Android_git/NewsApp/app/src/main/AndroidManifest.xml:2:1-36:12
+ADDED from /Users/boris/Desktop/Android_git/NewsApp/app/src/main/AndroidManifest.xml:2:1-38:12
 	package
 		ADDED from /Users/boris/Desktop/Android_git/NewsApp/app/src/main/AndroidManifest.xml:3:5-46
 		INJECTED from /Users/boris/Desktop/Android_git/NewsApp/app/src/main/AndroidManifest.xml
@@ -15,23 +15,45 @@ ADDED from /Users/boris/Desktop/Android_git/NewsApp/app/src/main/AndroidManifest
 		INJECTED from /Users/boris/Desktop/Android_git/NewsApp/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
 ADDED from /Users/boris/Desktop/Android_git/NewsApp/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] /Users/boris/.android/build-cache/f0e6aa44a0097967ac0a3039fcfd77d7697c28c5/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] /Users/boris/.android/build-cache/866d766b0692303eb7c7568a7dcf617c8e27aa56/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.4.2] /Users/boris/.android/build-cache/18b0ef6cc627689d6c542bae52f01fc1dd4ad160/output/AndroidManifest.xml:20:5-66
 	android:name
 		ADDED from /Users/boris/Desktop/Android_git/NewsApp/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/boris/Desktop/Android_git/NewsApp/app/src/main/AndroidManifest.xml:7:5-34:19
+ADDED from /Users/boris/Desktop/Android_git/NewsApp/app/src/main/AndroidManifest.xml:7:5-36:19
 MERGED from [com.android.support:design:25.3.1] /Users/boris/.android/build-cache/03e51a9a06fbbc87b76cef769a1ae722da1b3fe2/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/boris/.android/build-cache/78414da533055dfdfb9819a3d06491174d314ab2/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:transition:25.3.1] /Users/boris/.android/build-cache/50fd955a3e2c15bd8def4581751c45ea9792c297/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/boris/.android/build-cache/7cc40fd378941730704946a37436c43a44ee1628/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/boris/.android/build-cache/f48cac6bce7e14027e229114cd433ad998f40b73/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/boris/.android/build-cache/c36d76f285360b0f7e2b87aba40168be3af6f9bd/output/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-database-connection-license:11.4.2] /Users/boris/.android/build-cache/6a2902e5c8b5e59d0da517bd26b47a29a640ad8b/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-database-license:11.4.2] /Users/boris/.android/build-cache/227570a349a1b6adcca3bd1913834813f464217d/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-auth:11.4.2] /Users/boris/.android/build-cache/03ac8da0a4523dd0cdafab3dad01bb894f7ac6c2/output/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.4.2] /Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] /Users/boris/.android/build-cache/c22354d29eb3815e57781ba7d4bdfde0c8baa225/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-auth-license:11.4.2] /Users/boris/.android/build-cache/6001e65f4f23f027881258a069e2583050620899/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:11.4.2] /Users/boris/.android/build-cache/c73bc9a8ee9ca66af43277adc4ce69c58cbbdc7f/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] /Users/boris/.android/build-cache/f0e6aa44a0097967ac0a3039fcfd77d7697c28c5/output/AndroidManifest.xml:24:5-34:19
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] /Users/boris/.android/build-cache/866d766b0692303eb7c7568a7dcf617c8e27aa56/output/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:11.4.2] /Users/boris/.android/build-cache/18b0ef6cc627689d6c542bae52f01fc1dd4ad160/output/AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-iid-license:11.4.2] /Users/boris/.android/build-cache/c909b8f81ef233e5d858e26d7d3b6a1f2a4474d4/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-common:11.4.2] /Users/boris/.android/build-cache/8e5e1c06d55cb9ac6ef873759fe32b1abd1ad427/output/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common-license:11.4.2] /Users/boris/.android/build-cache/3a69cc82d8b83969573539e93386a0d02fae6e09/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] /Users/boris/.android/build-cache/4fe8847aeeebe46ba988cc791b4178612473ed8b/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] /Users/boris/.android/build-cache/880cfc511b05a379043a41afa533a2b2e0ae6c8f/output/AndroidManifest.xml:19:5-21:19
 MERGED from [com.android.support:support-v4:25.3.1] /Users/boris/.android/build-cache/89d32c6fae3027cf23000c2b4c9af70693d9f272/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] /Users/boris/.android/build-cache/abb3a0d61ed3464d696d6515f76fab714ad254a6/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:25.3.1] /Users/boris/.android/build-cache/24393a762903546c3bdbf9bc32c422135badd026/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/boris/.android/build-cache/f244c99127ad0229e33624119f53680665dd81d7/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/boris/.android/build-cache/7cc40fd378941730704946a37436c43a44ee1628/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-core-ui:25.3.1] /Users/boris/.android/build-cache/34719f58e33f39d4409f3e952f279df4d25dfa6c/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/boris/.android/build-cache/f244c99127ad0229e33624119f53680665dd81d7/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:25.3.1] /Users/boris/.android/build-cache/3dcc6f0b4631911c34844dfc761cb4b3df33dcc2/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:cardview-v7:25.3.1] /Users/boris/.android/build-cache/f48cac6bce7e14027e229114cd433ad998f40b73/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/boris/.android/build-cache/c36d76f285360b0f7e2b87aba40168be3af6f9bd/output/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] /Users/boris/.android/build-cache/6edc376eefb57f1734c6ebe5f7ad8c0508759dac/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] /Users/boris/.android/build-cache/2be66c0130013cc758930a18cdf3bf432a7e3dea/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.4.2] /Users/boris/.android/build-cache/b9674490410dc13e6393b0aa77303c17f32cd8b4/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics-license:11.4.2] /Users/boris/.android/build-cache/f17d3179c0f8af811385cb963b8a3f6980746e36/output/AndroidManifest.xml:5:5-20
 	android:label
 		ADDED from /Users/boris/Desktop/Android_git/NewsApp/app/src/main/AndroidManifest.xml:10:9-41
 	android:supportsRtl
@@ -77,25 +99,54 @@ ADDED from /Users/boris/Desktop/Android_git/NewsApp/app/src/main/AndroidManifest
 	android:name
 		ADDED from /Users/boris/Desktop/Android_git/NewsApp/app/src/main/AndroidManifest.xml:32:19-48
 activity#com.example.boris.worldexplorer.BookMarkActivity
-ADDED from /Users/boris/Desktop/Android_git/NewsApp/app/src/main/AndroidManifest.xml:33:9-63
+ADDED from /Users/boris/Desktop/Android_git/NewsApp/app/src/main/AndroidManifest.xml:33:9-54
 	android:name
 		ADDED from /Users/boris/Desktop/Android_git/NewsApp/app/src/main/AndroidManifest.xml:33:19-51
+activity#com.example.boris.worldexplorer.SignupActivity
+ADDED from /Users/boris/Desktop/Android_git/NewsApp/app/src/main/AndroidManifest.xml:34:9-52
+	android:name
+		ADDED from /Users/boris/Desktop/Android_git/NewsApp/app/src/main/AndroidManifest.xml:34:19-49
+activity#com.example.boris.worldexplorer.LogoutActivity
+ADDED from /Users/boris/Desktop/Android_git/NewsApp/app/src/main/AndroidManifest.xml:35:9-61
+	android:name
+		ADDED from /Users/boris/Desktop/Android_git/NewsApp/app/src/main/AndroidManifest.xml:35:19-49
 uses-sdk
 INJECTED from /Users/boris/Desktop/Android_git/NewsApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:25.3.1] /Users/boris/.android/build-cache/03e51a9a06fbbc87b76cef769a1ae722da1b3fe2/output/AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/boris/.android/build-cache/78414da533055dfdfb9819a3d06491174d314ab2/output/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:25.3.1] /Users/boris/.android/build-cache/50fd955a3e2c15bd8def4581751c45ea9792c297/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/boris/.android/build-cache/7cc40fd378941730704946a37436c43a44ee1628/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/boris/.android/build-cache/cbbcec7319ca10e0140a0444417bc8c9b20ce9f2/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/boris/.android/build-cache/f48cac6bce7e14027e229114cd433ad998f40b73/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/boris/.android/build-cache/c36d76f285360b0f7e2b87aba40168be3af6f9bd/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database:11.4.2] /Users/boris/.android/build-cache/3d60daab58ebf7a1666db47e22a06c303e31bc38/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:11.4.2] /Users/boris/.android/build-cache/ec6e05604150787a67b9ee2e476bd10387151c0f/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection-license:11.4.2] /Users/boris/.android/build-cache/6a2902e5c8b5e59d0da517bd26b47a29a640ad8b/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-database-license:11.4.2] /Users/boris/.android/build-cache/227570a349a1b6adcca3bd1913834813f464217d/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-auth:11.4.2] /Users/boris/.android/build-cache/03ac8da0a4523dd0cdafab3dad01bb894f7ac6c2/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.4.2] /Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.4.2] /Users/boris/.android/build-cache/c22354d29eb3815e57781ba7d4bdfde0c8baa225/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-auth-license:11.4.2] /Users/boris/.android/build-cache/6001e65f4f23f027881258a069e2583050620899/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-core:11.4.2] /Users/boris/.android/build-cache/c73bc9a8ee9ca66af43277adc4ce69c58cbbdc7f/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:11.4.2] /Users/boris/.android/build-cache/f0e6aa44a0097967ac0a3039fcfd77d7697c28c5/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] /Users/boris/.android/build-cache/866d766b0692303eb7c7568a7dcf617c8e27aa56/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:11.4.2] /Users/boris/.android/build-cache/18b0ef6cc627689d6c542bae52f01fc1dd4ad160/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid-license:11.4.2] /Users/boris/.android/build-cache/c909b8f81ef233e5d858e26d7d3b6a1f2a4474d4/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common:11.4.2] /Users/boris/.android/build-cache/8e5e1c06d55cb9ac6ef873759fe32b1abd1ad427/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common-license:11.4.2] /Users/boris/.android/build-cache/3a69cc82d8b83969573539e93386a0d02fae6e09/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.2] /Users/boris/.android/build-cache/4fe8847aeeebe46ba988cc791b4178612473ed8b/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.2] /Users/boris/.android/build-cache/880cfc511b05a379043a41afa533a2b2e0ae6c8f/output/AndroidManifest.xml:17:5-43
 MERGED from [com.android.support:support-v4:25.3.1] /Users/boris/.android/build-cache/89d32c6fae3027cf23000c2b4c9af70693d9f272/output/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.3.1] /Users/boris/.android/build-cache/abb3a0d61ed3464d696d6515f76fab714ad254a6/output/AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-media-compat:25.3.1] /Users/boris/.android/build-cache/24393a762903546c3bdbf9bc32c422135badd026/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/boris/.android/build-cache/f244c99127ad0229e33624119f53680665dd81d7/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/boris/.android/build-cache/7cc40fd378941730704946a37436c43a44ee1628/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/boris/.android/build-cache/cbbcec7319ca10e0140a0444417bc8c9b20ce9f2/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-core-ui:25.3.1] /Users/boris/.android/build-cache/34719f58e33f39d4409f3e952f279df4d25dfa6c/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/boris/.android/build-cache/f244c99127ad0229e33624119f53680665dd81d7/output/AndroidManifest.xml:21:5-23:61
 MERGED from [com.android.support:support-compat:25.3.1] /Users/boris/.android/build-cache/3dcc6f0b4631911c34844dfc761cb4b3df33dcc2/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:cardview-v7:25.3.1] /Users/boris/.android/build-cache/f48cac6bce7e14027e229114cd433ad998f40b73/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/boris/.android/build-cache/c36d76f285360b0f7e2b87aba40168be3af6f9bd/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-basement-license:11.4.2] /Users/boris/.android/build-cache/6edc376eefb57f1734c6ebe5f7ad8c0508759dac/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.4.2] /Users/boris/.android/build-cache/2be66c0130013cc758930a18cdf3bf432a7e3dea/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl-license:11.4.2] /Users/boris/.android/build-cache/b9674490410dc13e6393b0aa77303c17f32cd8b4/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics-license:11.4.2] /Users/boris/.android/build-cache/f17d3179c0f8af811385cb963b8a3f6980746e36/output/AndroidManifest.xml:4:5-43
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.3.1] /Users/boris/.android/build-cache/03e51a9a06fbbc87b76cef769a1ae722da1b3fe2/output/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
@@ -109,16 +160,148 @@ ADDED from [com.android.support:design:25.3.1] /Users/boris/.android/build-cache
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/boris/.android/build-cache/78414da533055dfdfb9819a3d06491174d314ab2/output/AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:transition:25.3.1] /Users/boris/.android/build-cache/50fd955a3e2c15bd8def4581751c45ea9792c297/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/boris/.android/build-cache/7cc40fd378941730704946a37436c43a44ee1628/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/boris/.android/build-cache/cbbcec7319ca10e0140a0444417bc8c9b20ce9f2/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.1] /Users/boris/.android/build-cache/f48cac6bce7e14027e229114cd433ad998f40b73/output/AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-v4:25.3.1] /Users/boris/.android/build-cache/89d32c6fae3027cf23000c2b4c9af70693d9f272/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-fragment:25.3.1] /Users/boris/.android/build-cache/abb3a0d61ed3464d696d6515f76fab714ad254a6/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-media-compat:25.3.1] /Users/boris/.android/build-cache/24393a762903546c3bdbf9bc32c422135badd026/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/boris/.android/build-cache/f244c99127ad0229e33624119f53680665dd81d7/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/boris/.android/build-cache/7cc40fd378941730704946a37436c43a44ee1628/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/boris/.android/build-cache/cbbcec7319ca10e0140a0444417bc8c9b20ce9f2/output/AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-core-ui:25.3.1] /Users/boris/.android/build-cache/34719f58e33f39d4409f3e952f279df4d25dfa6c/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/boris/.android/build-cache/f244c99127ad0229e33624119f53680665dd81d7/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-compat:25.3.1] /Users/boris/.android/build-cache/3dcc6f0b4631911c34844dfc761cb4b3df33dcc2/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:cardview-v7:25.3.1] /Users/boris/.android/build-cache/f48cac6bce7e14027e229114cd433ad998f40b73/output/AndroidManifest.xml:22:5-24:34
 	android:value
 		ADDED from [com.android.support:design:25.3.1] /Users/boris/.android/build-cache/03e51a9a06fbbc87b76cef769a1ae722da1b3fe2/output/AndroidManifest.xml:27:9-31
 	android:name
 		ADDED from [com.android.support:design:25.3.1] /Users/boris/.android/build-cache/03e51a9a06fbbc87b76cef769a1ae722da1b3fe2/output/AndroidManifest.xml:26:9-47
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.4.2] /Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.4.2] /Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.4.2] /Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.4.2] /Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/AndroidManifest.xml:19:19-85
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] /Users/boris/.android/build-cache/f0e6aa44a0097967ac0a3039fcfd77d7697c28c5/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] /Users/boris/.android/build-cache/866d766b0692303eb7c7568a7dcf617c8e27aa56/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:11.4.2] /Users/boris/.android/build-cache/18b0ef6cc627689d6c542bae52f01fc1dd4ad160/output/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] /Users/boris/.android/build-cache/f0e6aa44a0097967ac0a3039fcfd77d7697c28c5/output/AndroidManifest.xml:21:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] /Users/boris/.android/build-cache/f0e6aa44a0097967ac0a3039fcfd77d7697c28c5/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] /Users/boris/.android/build-cache/866d766b0692303eb7c7568a7dcf617c8e27aa56/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:11.4.2] /Users/boris/.android/build-cache/18b0ef6cc627689d6c542bae52f01fc1dd4ad160/output/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] /Users/boris/.android/build-cache/f0e6aa44a0097967ac0a3039fcfd77d7697c28c5/output/AndroidManifest.xml:22:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] /Users/boris/.android/build-cache/f0e6aa44a0097967ac0a3039fcfd77d7697c28c5/output/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] /Users/boris/.android/build-cache/866d766b0692303eb7c7568a7dcf617c8e27aa56/output/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] /Users/boris/.android/build-cache/f0e6aa44a0097967ac0a3039fcfd77d7697c28c5/output/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] /Users/boris/.android/build-cache/f0e6aa44a0097967ac0a3039fcfd77d7697c28c5/output/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] /Users/boris/.android/build-cache/f0e6aa44a0097967ac0a3039fcfd77d7697c28c5/output/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] /Users/boris/.android/build-cache/f0e6aa44a0097967ac0a3039fcfd77d7697c28c5/output/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] /Users/boris/.android/build-cache/f0e6aa44a0097967ac0a3039fcfd77d7697c28c5/output/AndroidManifest.xml:27:162-184
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] /Users/boris/.android/build-cache/f0e6aa44a0097967ac0a3039fcfd77d7697c28c5/output/AndroidManifest.xml:27:185-208
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] /Users/boris/.android/build-cache/f0e6aa44a0097967ac0a3039fcfd77d7697c28c5/output/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] /Users/boris/.android/build-cache/f0e6aa44a0097967ac0a3039fcfd77d7697c28c5/output/AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] /Users/boris/.android/build-cache/f0e6aa44a0097967ac0a3039fcfd77d7697c28c5/output/AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] /Users/boris/.android/build-cache/f0e6aa44a0097967ac0a3039fcfd77d7697c28c5/output/AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] /Users/boris/.android/build-cache/f0e6aa44a0097967ac0a3039fcfd77d7697c28c5/output/AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] /Users/boris/.android/build-cache/f0e6aa44a0097967ac0a3039fcfd77d7697c28c5/output/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:11.4.2] /Users/boris/.android/build-cache/866d766b0692303eb7c7568a7dcf617c8e27aa56/output/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] /Users/boris/.android/build-cache/f0e6aa44a0097967ac0a3039fcfd77d7697c28c5/output/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] /Users/boris/.android/build-cache/f0e6aa44a0097967ac0a3039fcfd77d7697c28c5/output/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] /Users/boris/.android/build-cache/f0e6aa44a0097967ac0a3039fcfd77d7697c28c5/output/AndroidManifest.xml:32:16-87
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:11.4.2] /Users/boris/.android/build-cache/f0e6aa44a0097967ac0a3039fcfd77d7697c28c5/output/AndroidManifest.xml:33:7-197
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] /Users/boris/.android/build-cache/f0e6aa44a0097967ac0a3039fcfd77d7697c28c5/output/AndroidManifest.xml:33:148-170
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] /Users/boris/.android/build-cache/f0e6aa44a0097967ac0a3039fcfd77d7697c28c5/output/AndroidManifest.xml:33:171-195
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] /Users/boris/.android/build-cache/f0e6aa44a0097967ac0a3039fcfd77d7697c28c5/output/AndroidManifest.xml:33:91-147
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:11.4.2] /Users/boris/.android/build-cache/f0e6aa44a0097967ac0a3039fcfd77d7697c28c5/output/AndroidManifest.xml:33:16-90
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.4.2] /Users/boris/.android/build-cache/18b0ef6cc627689d6c542bae52f01fc1dd4ad160/output/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] /Users/boris/.android/build-cache/18b0ef6cc627689d6c542bae52f01fc1dd4ad160/output/AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.2] /Users/boris/.android/build-cache/18b0ef6cc627689d6c542bae52f01fc1dd4ad160/output/AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] /Users/boris/.android/build-cache/18b0ef6cc627689d6c542bae52f01fc1dd4ad160/output/AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] /Users/boris/.android/build-cache/18b0ef6cc627689d6c542bae52f01fc1dd4ad160/output/AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:11.4.2] /Users/boris/.android/build-cache/18b0ef6cc627689d6c542bae52f01fc1dd4ad160/output/AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] /Users/boris/.android/build-cache/18b0ef6cc627689d6c542bae52f01fc1dd4ad160/output/AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:11.4.2] /Users/boris/.android/build-cache/18b0ef6cc627689d6c542bae52f01fc1dd4ad160/output/AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] /Users/boris/.android/build-cache/18b0ef6cc627689d6c542bae52f01fc1dd4ad160/output/AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] /Users/boris/.android/build-cache/18b0ef6cc627689d6c542bae52f01fc1dd4ad160/output/AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] /Users/boris/.android/build-cache/18b0ef6cc627689d6c542bae52f01fc1dd4ad160/output/AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.4.2] /Users/boris/.android/build-cache/18b0ef6cc627689d6c542bae52f01fc1dd4ad160/output/AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:11.4.2] /Users/boris/.android/build-cache/18b0ef6cc627689d6c542bae52f01fc1dd4ad160/output/AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] /Users/boris/.android/build-cache/18b0ef6cc627689d6c542bae52f01fc1dd4ad160/output/AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:11.4.2] /Users/boris/.android/build-cache/18b0ef6cc627689d6c542bae52f01fc1dd4ad160/output/AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] /Users/boris/.android/build-cache/18b0ef6cc627689d6c542bae52f01fc1dd4ad160/output/AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:11.4.2] /Users/boris/.android/build-cache/18b0ef6cc627689d6c542bae52f01fc1dd4ad160/output/AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] /Users/boris/.android/build-cache/18b0ef6cc627689d6c542bae52f01fc1dd4ad160/output/AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] /Users/boris/.android/build-cache/18b0ef6cc627689d6c542bae52f01fc1dd4ad160/output/AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:11.4.2] /Users/boris/.android/build-cache/18b0ef6cc627689d6c542bae52f01fc1dd4ad160/output/AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] /Users/boris/.android/build-cache/18b0ef6cc627689d6c542bae52f01fc1dd4ad160/output/AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] /Users/boris/.android/build-cache/18b0ef6cc627689d6c542bae52f01fc1dd4ad160/output/AndroidManifest.xml:43:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.4.2] /Users/boris/.android/build-cache/18b0ef6cc627689d6c542bae52f01fc1dd4ad160/output/AndroidManifest.xml:44:13-46:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] /Users/boris/.android/build-cache/18b0ef6cc627689d6c542bae52f01fc1dd4ad160/output/AndroidManifest.xml:44:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:11.4.2] /Users/boris/.android/build-cache/18b0ef6cc627689d6c542bae52f01fc1dd4ad160/output/AndroidManifest.xml:45:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:11.4.2] /Users/boris/.android/build-cache/18b0ef6cc627689d6c542bae52f01fc1dd4ad160/output/AndroidManifest.xml:45:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:11.4.2] /Users/boris/.android/build-cache/8e5e1c06d55cb9ac6ef873759fe32b1abd1ad427/output/AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:11.4.2] /Users/boris/.android/build-cache/8e5e1c06d55cb9ac6ef873759fe32b1abd1ad427/output/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:11.4.2] /Users/boris/.android/build-cache/8e5e1c06d55cb9ac6ef873759fe32b1abd1ad427/output/AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:11.4.2] /Users/boris/.android/build-cache/8e5e1c06d55cb9ac6ef873759fe32b1abd1ad427/output/AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:11.4.2] /Users/boris/.android/build-cache/8e5e1c06d55cb9ac6ef873759fe32b1abd1ad427/output/AndroidManifest.xml:6:79-143
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.4.2] /Users/boris/.android/build-cache/880cfc511b05a379043a41afa533a2b2e0ae6c8f/output/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.4.2] /Users/boris/.android/build-cache/880cfc511b05a379043a41afa533a2b2e0ae6c8f/output/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.4.2] /Users/boris/.android/build-cache/880cfc511b05a379043a41afa533a2b2e0ae6c8f/output/AndroidManifest.xml:20:20-65

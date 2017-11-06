@@ -6,34 +6,31 @@
     density="420dpi"
     format="10"
     plugin-version="2.3.2"
-    timestamp="1507122101593"
+    timestamp="1509932279717"
     token="-877133590322555722"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="218" />
+        duration="471" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="13" />
+        duration="33" />
     <task
         name="verifier"
-        duration="2" />
+        duration="10" />
 
     <artifact
-        location="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        location="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
         type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1507119604119"
+        timestamp="1509931740162"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="/Users/boris/Desktop/Android_git/NewsApp/app/build/outputs/apk/app-debug.apk"
-            type="SPLIT_MAIN" />
         <artifact
             location="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
@@ -67,21 +64,24 @@
         <artifact
             location="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
+        <artifact
+            location="/Users/boris/Desktop/Android_git/NewsApp/app/build/outputs/apk/app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1507121979115"
+        timestamp="1509932139393"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/boris/Desktop/Android_git/NewsApp/app/build/outputs/apk/app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1509932279717"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1507122101593"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
     </build>
 

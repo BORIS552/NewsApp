@@ -11,9 +11,13 @@
     <color name="colorPrimaryTooDark">#000000</color>
     <color name="materialBlue">#1A237E</color>
     <color name="navColor">#C2185B</color>
-    <color name="loginPageBack">#009688</color>
+    <color name="signupBack">#009688</color>
     <color name="bookMarkBack">#880E4F</color>
+    <color name="signup">#E53935</color>
+    <color name="login">#2196F3</color>
+    <color name="loginBack">#E53935</color>
+    <color name="loginButton">#009688</color>
 </resources>
 
-<!-- #2980B9 -->
-<!-- #2980B9 -->
+    <!-- #2980B9 -->
+    <!-- #2980B9 -->

@@ -6,9 +6,9 @@
                 "to": {
                     "startLine": 2,
                     "startColumn": 4,
-                    "startOffset": 55,
+                    "startOffset": 105,
                     "endColumn": 108,
-                    "endOffset": 159
+                    "endOffset": 209
                 },
                 "from": {
                     "file": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/values-b+sr+Latn/values-b+sr+Latn.xml",
@@ -25,9 +25,9 @@
                 "to": {
                     "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 164,
+                    "startOffset": 214,
                     "endColumn": 107,
-                    "endOffset": 267
+                    "endOffset": 317
                 },
                 "from": {
                     "file": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/values-b+sr+Latn/values-b+sr+Latn.xml",
@@ -44,9 +44,9 @@
                 "to": {
                     "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 272,
+                    "startOffset": 322,
                     "endColumn": 122,
-                    "endOffset": 390
+                    "endOffset": 440
                 },
                 "from": {
                     "file": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/values-b+sr+Latn/values-b+sr+Latn.xml",
@@ -63,9 +63,9 @@
                 "to": {
                     "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 395,
+                    "startOffset": 445,
                     "endColumn": 103,
-                    "endOffset": 494
+                    "endOffset": 544
                 },
                 "from": {
                     "file": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/values-b+sr+Latn/values-b+sr+Latn.xml",
@@ -82,9 +82,9 @@
                 "to": {
                     "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 499,
+                    "startOffset": 549,
                     "endColumn": 105,
-                    "endOffset": 600
+                    "endOffset": 650
                 },
                 "from": {
                     "file": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/values-b+sr+Latn/values-b+sr+Latn.xml",
@@ -101,9 +101,9 @@
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 605,
+                    "startOffset": 655,
                     "endColumn": 85,
-                    "endOffset": 686
+                    "endOffset": 736
                 },
                 "from": {
                     "file": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/values-b+sr+Latn/values-b+sr+Latn.xml",
@@ -120,9 +120,9 @@
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 691,
+                    "startOffset": 741,
                     "endColumn": 103,
-                    "endOffset": 790
+                    "endOffset": 840
                 },
                 "from": {
                     "file": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/values-b+sr+Latn/values-b+sr+Latn.xml",
@@ -139,9 +139,9 @@
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 795,
+                    "startOffset": 845,
                     "endColumn": 117,
-                    "endOffset": 908
+                    "endOffset": 958
                 },
                 "from": {
                     "file": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/values-b+sr+Latn/values-b+sr+Latn.xml",
@@ -158,9 +158,9 @@
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 913,
+                    "startOffset": 963,
                     "endColumn": 81,
-                    "endOffset": 990
+                    "endOffset": 1040
                 },
                 "from": {
                     "file": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/values-b+sr+Latn/values-b+sr+Latn.xml",
@@ -177,9 +177,9 @@
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 995,
+                    "startOffset": 1045,
                     "endColumn": 80,
-                    "endOffset": 1071
+                    "endOffset": 1121
                 },
                 "from": {
                     "file": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/values-b+sr+Latn/values-b+sr+Latn.xml",
@@ -196,9 +196,9 @@
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 1076,
+                    "startOffset": 1126,
                     "endColumn": 87,
-                    "endOffset": 1159
+                    "endOffset": 1209
                 },
                 "from": {
                     "file": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/values-b+sr+Latn/values-b+sr+Latn.xml",
@@ -215,9 +215,9 @@
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 1164,
+                    "startOffset": 1214,
                     "endColumn": 105,
-                    "endOffset": 1265
+                    "endOffset": 1315
                 },
                 "from": {
                     "file": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/values-b+sr+Latn/values-b+sr+Latn.xml",
@@ -234,9 +234,9 @@
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 1270,
+                    "startOffset": 1320,
                     "endColumn": 107,
-                    "endOffset": 1373
+                    "endOffset": 1423
                 },
                 "from": {
                     "file": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/values-b+sr+Latn/values-b+sr+Latn.xml",
@@ -253,9 +253,9 @@
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 1378,
+                    "startOffset": 1428,
                     "endColumn": 100,
-                    "endOffset": 1474
+                    "endOffset": 1524
                 },
                 "from": {
                     "file": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/values-b+sr+Latn/values-b+sr+Latn.xml",
@@ -272,9 +272,9 @@
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 1479,
+                    "startOffset": 1529,
                     "endColumn": 104,
-                    "endOffset": 1579
+                    "endOffset": 1629
                 },
                 "from": {
                     "file": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/values-b+sr+Latn/values-b+sr+Latn.xml",
@@ -291,9 +291,9 @@
                 "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 1584,
+                    "startOffset": 1634,
                     "endColumn": 107,
-                    "endOffset": 1687
+                    "endOffset": 1737
                 },
                 "from": {
                     "file": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/values-b+sr+Latn/values-b+sr+Latn.xml",
@@ -310,9 +310,9 @@
                 "to": {
                     "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 1692,
+                    "startOffset": 1742,
                     "endColumn": 100,
-                    "endOffset": 1788
+                    "endOffset": 1838
                 },
                 "from": {
                     "file": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/values-b+sr+Latn/values-b+sr+Latn.xml",
@@ -329,9 +329,9 @@
                 "to": {
                     "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 1793,
+                    "startOffset": 1843,
                     "endColumn": 127,
-                    "endOffset": 1916
+                    "endOffset": 1966
                 },
                 "from": {
                     "file": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/values-b+sr+Latn/values-b+sr+Latn.xml",
@@ -348,9 +348,9 @@
                 "to": {
                     "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 1921,
+                    "startOffset": 1971,
                     "endColumn": 96,
-                    "endOffset": 2013
+                    "endOffset": 2063
                 },
                 "from": {
                     "file": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/values-b+sr+Latn/values-b+sr+Latn.xml",
@@ -367,9 +367,332 @@
                 "to": {
                     "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 2018,
+                    "startOffset": 2068,
+                    "endColumn": 107,
+                    "endOffset": 2171
+                },
+                "from": {
+                    "file": "/Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/res/values-b+sr+Latn/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 290,
+                        "endColumn": 103,
+                        "endOffset": 393
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2176,
+                    "endColumn": 187,
+                    "endOffset": 2359
+                },
+                "from": {
+                    "file": "/Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/res/values-b+sr+Latn/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 394,
+                        "endColumn": 187,
+                        "endOffset": 581
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2364,
+                    "endColumn": 127,
+                    "endOffset": 2487
+                },
+                "from": {
+                    "file": "/Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/res/values-b+sr+Latn/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 582,
+                        "endColumn": 123,
+                        "endOffset": 705
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2492,
+                    "endColumn": 111,
+                    "endOffset": 2599
+                },
+                "from": {
+                    "file": "/Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/res/values-b+sr+Latn/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 706,
+                        "endColumn": 107,
+                        "endOffset": 813
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2604,
+                    "endColumn": 212,
+                    "endOffset": 2812
+                },
+                "from": {
+                    "file": "/Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/res/values-b+sr+Latn/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 814,
+                        "endColumn": 212,
+                        "endOffset": 1026
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2817,
+                    "endColumn": 128,
+                    "endOffset": 2941
+                },
+                "from": {
+                    "file": "/Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/res/values-b+sr+Latn/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 1027,
+                        "endColumn": 124,
+                        "endOffset": 1151
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2946,
+                    "endColumn": 130,
+                    "endOffset": 3072
+                },
+                "from": {
+                    "file": "/Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/res/values-b+sr+Latn/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 1152,
+                        "endColumn": 126,
+                        "endOffset": 1278
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 3077,
+                    "endColumn": 188,
+                    "endOffset": 3261
+                },
+                "from": {
+                    "file": "/Users/boris/.android/build-cache/880cfc511b05a379043a41afa533a2b2e0ae6c8f/output/res/values-b+sr+Latn/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 292,
+                        "endColumn": 188,
+                        "endOffset": 480
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 3266,
+                    "endColumn": 207,
+                    "endOffset": 3469
+                },
+                "from": {
+                    "file": "/Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/res/values-b+sr+Latn/values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 1279,
+                        "endColumn": 207,
+                        "endOffset": 1486
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 3474,
+                    "endColumn": 108,
+                    "endOffset": 3578
+                },
+                "from": {
+                    "file": "/Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/res/values-b+sr+Latn/values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 1487,
+                        "endColumn": 104,
+                        "endOffset": 1591
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 3583,
+                    "endColumn": 190,
+                    "endOffset": 3769
+                },
+                "from": {
+                    "file": "/Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/res/values-b+sr+Latn/values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 1592,
+                        "endColumn": 190,
+                        "endOffset": 1782
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 3774,
+                    "endColumn": 128,
+                    "endOffset": 3898
+                },
+                "from": {
+                    "file": "/Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/res/values-b+sr+Latn/values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 0,
+                        "startOffset": 1783,
+                        "endColumn": 124,
+                        "endOffset": 1907
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 3903,
+                    "endColumn": 207,
+                    "endOffset": 4106
+                },
+                "from": {
+                    "file": "/Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/res/values-b+sr+Latn/values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 0,
+                        "startOffset": 1908,
+                        "endColumn": 207,
+                        "endOffset": 2115
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 4111,
+                    "endColumn": 171,
+                    "endOffset": 4278
+                },
+                "from": {
+                    "file": "/Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/res/values-b+sr+Latn/values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 0,
+                        "startOffset": 2116,
+                        "endColumn": 167,
+                        "endOffset": 2283
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 4283,
+                    "endColumn": 97,
+                    "endOffset": 4376
+                },
+                "from": {
+                    "file": "/Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/res/values-b+sr+Latn/values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 0,
+                        "startOffset": 2284,
+                        "endColumn": 93,
+                        "endOffset": 2377
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 4381,
+                    "endColumn": 94,
+                    "endOffset": 4471
+                },
+                "from": {
+                    "file": "/Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/res/values-b+sr+Latn/values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 0,
+                        "startOffset": 2378,
+                        "endColumn": 90,
+                        "endOffset": 2468
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 4476,
+                    "endColumn": 108,
+                    "endOffset": 4580
+                },
+                "from": {
+                    "file": "/Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/res/values-b+sr+Latn/values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 0,
+                        "startOffset": 2469,
+                        "endColumn": 104,
+                        "endOffset": 2573
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 4585,
                     "endColumn": 83,
-                    "endOffset": 2097
+                    "endOffset": 4664
                 },
                 "from": {
                     "file": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/values-b+sr+Latn/values-b+sr+Latn.xml",
@@ -384,11 +707,11 @@
             },
             {
                 "to": {
-                    "startLine": 22,
+                    "startLine": 39,
                     "startColumn": 4,
-                    "startOffset": 2102,
+                    "startOffset": 4669,
                     "endColumn": 100,
-                    "endOffset": 2198
+                    "endOffset": 4765
                 },
                 "from": {
                     "file": "/Users/boris/.android/build-cache/f8325765b47ccc2bfbf03e5fcb5faeee81686d40/output/res/values-b+sr+Latn/values-b+sr+Latn.xml",

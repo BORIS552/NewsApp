@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
         switch (item.getItemId()) {
             case R.id.action_login:
                     System.out.println("Login Clicked");
-                Intent intent = new Intent(this, LoginActivity.class);
+                Intent intent = new Intent(this, SignupActivity.class);
                 startActivity(intent);
                  return  true;
             case R.id.action_bookmark:

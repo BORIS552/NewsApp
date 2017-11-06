@@ -30,7 +30,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".LoginActivity" />
-        <activity android:name=".BookMarkActivity"></activity>
+        <activity android:name=".BookMarkActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".LogoutActivity"></activity>
     </application>
 
 </manifest>
