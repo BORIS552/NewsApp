@@ -2,112 +2,76 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/Users/boris/.android/build-cache/f0e6aa44a0097967ac0a3039fcfd77d7697c28c5/output/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="bed98ea7af8c5c4202820875e856dd3eb296e22d">
-        <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b5f745d27f994d77020f508d1df980bd3be3aa55/classes.dex" />
+        <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/pre-dexed/debug/classes_b5f745d27f994d77020f508d1df980bd3be3aa55.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/boris/.android/build-cache/ec6e05604150787a67b9ee2e476bd10387151c0f/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="c2cadea4d8a1a5b5c4e5f0dc99a99a43774f5e6e">
-        <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_60c56d3d95a4568a79984121ed5554187ba7a772/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/boris/.android/build-cache/880cfc511b05a379043a41afa533a2b2e0ae6c8f/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="8040d53ecd4bd895360eafdc25e1c1cc9479e6aa">
-        <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7a2fdbdbf303cc33d5f1a706be30c90a3b9b9ce1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="755d86b8f710864e1a45a047627e02e507d2a04a">
-        <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_126826405a4a5f1e912ea480b022a5fba9bde464/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/Users/boris/.android/build-cache/866d766b0692303eb7c7568a7dcf617c8e27aa56/output/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="20d6aa9a18ea9833cd2bee95dff7cd303cdb80e4">
-        <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ca03b54ac0615707fe2d6e990185d387544401f7/classes.dex" />
+        <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/pre-dexed/debug/classes_ca03b54ac0615707fe2d6e990185d387544401f7.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="2d45b277afdf55bcfdc005c03c0c2f1733aaa1b0">
-        <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_697a29f62db29130f03db7833693d758e4c074a1/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/boris/.android/build-cache/c36d76f285360b0f7e2b87aba40168be3af6f9bd/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fa2c12f25462ad41c28225ac5f997c9f95cd40ed/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/boris/.android/build-cache/18b0ef6cc627689d6c542bae52f01fc1dd4ad160/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="6e6b94b72d7912a627fb1629c310b2bca9261f06">
-        <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3f5a0aea67cf2fc221ad8b44d08575f1b55a0582/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
+        is-multidex="false"
         jar="/Users/boris/.android/build-cache/4fe8847aeeebe46ba988cc791b4178612473ed8b/output/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="643a2fd3bd06c44be5d20efc0ba4ca02036d2c8a">
-        <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e24d6358b8256029a775ece846fde86a50419a3c/classes.dex" />
+        <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/pre-dexed/debug/classes_e24d6358b8256029a775ece846fde86a50419a3c.jar" />
     </item>
     <item
-        is-multidex="true"
+        is-multidex="false"
+        jar="/Users/boris/.android/build-cache/18b0ef6cc627689d6c542bae52f01fc1dd4ad160/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6e6b94b72d7912a627fb1629c310b2bca9261f06">
+        <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/pre-dexed/debug/classes_3f5a0aea67cf2fc221ad8b44d08575f1b55a0582.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/boris/.android/build-cache/8e5e1c06d55cb9ac6ef873759fe32b1abd1ad427/output/jars/classes.jar"
-        jumboMode="true"
+        jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="5f519b8c692038a47ee404b6ea6b847f6402000c">
-        <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_689adf4bd642857f466df6a9605b5c4d1e3f5504/classes.dex" />
+        <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/pre-dexed/debug/classes_689adf4bd642857f466df6a9605b5c4d1e3f5504.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/boris/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/boris/.android/build-cache/880cfc511b05a379043a41afa533a2b2e0ae6c8f/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_ee7445520db0968d0e0ff214f5c378a331ff4f23/classes.dex" />
+        sha1="8040d53ecd4bd895360eafdc25e1c1cc9479e6aa">
+        <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/pre-dexed/debug/classes_7a2fdbdbf303cc33d5f1a706be30c90a3b9b9ce1.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/boris/.android/build-cache/03ac8da0a4523dd0cdafab3dad01bb894f7ac6c2/output/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/boris/.android/build-cache/3d60daab58ebf7a1666db47e22a06c303e31bc38/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="52339832d252da4328c5ffcacbc205268346362a">
-        <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_cef7d85ffa382310020f0f62631d542582492155/classes.dex" />
+        sha1="73c80b05a390e8319d1ef7a236739cd610c8f774">
+        <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/pre-dexed/debug/classes_aea091befbbc12475b8c8b75073090957c2e92bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/boris/.android/build-cache/6a275008488cb60169129d50cb2fa64f8d883172/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2d45b277afdf55bcfdc005c03c0c2f1733aaa1b0">
+        <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/pre-dexed/debug/classes_697a29f62db29130f03db7833693d758e4c074a1.jar" />
     </item>
     <item
         is-multidex="false"
@@ -119,22 +83,22 @@
         <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_53f1af74b46e8cc36396aaa8011865088512f1fd.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/boris/.android/build-cache/ec6e05604150787a67b9ee2e476bd10387151c0f/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
-        <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_486a247208f1a456c66a7ba3c3f901004617f03b/classes.dex" />
+        sha1="c2cadea4d8a1a5b5c4e5f0dc99a99a43774f5e6e">
+        <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/pre-dexed/debug/classes_60c56d3d95a4568a79984121ed5554187ba7a772.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/boris/.android/build-cache/3d60daab58ebf7a1666db47e22a06c303e31bc38/output/jars/classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/boris/.android/build-cache/03ac8da0a4523dd0cdafab3dad01bb894f7ac6c2/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="73c80b05a390e8319d1ef7a236739cd610c8f774">
-        <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_aea091befbbc12475b8c8b75073090957c2e92bc/classes.dex" />
+        sha1="52339832d252da4328c5ffcacbc205268346362a">
+        <dex dex="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/pre-dexed/debug/classes_cef7d85ffa382310020f0f62631d542582492155.jar" />
     </item>
 
 </items>

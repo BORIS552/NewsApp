@@ -11,10 +11,13 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
+import com.example.boris.worldexplorer.model.transaction.User;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 
 public class SignupActivity extends AppCompatActivity {
@@ -22,10 +25,15 @@ public class SignupActivity extends AppCompatActivity {
     private Button btnSignUp, btnLogin;
     private ProgressBar pbar;
     private FirebaseAuth auth;
+    private DatabaseReference databaseUsers;
+    private User user = new User();
+    //private FirebaseDatabase mFirebaseInstance;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_signup);
+
+        databaseUsers = FirebaseDatabase.getInstance().getReference("users");
         auth = FirebaseAuth.getInstance();
         if (auth.getCurrentUser() != null) {
             startActivity(new Intent(SignupActivity.this, LogoutActivity.class));
@@ -39,6 +47,8 @@ public class SignupActivity extends AppCompatActivity {
         btnLogin = (Button)findViewById(R.id.loginSec);
         pbar  = (ProgressBar)findViewById(R.id.progressBar);
         auth = FirebaseAuth.getInstance();
+
+
         btnSignUp.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
@@ -61,6 +71,9 @@ public class SignupActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "Weak Password! Enter more than 6 characters",Toast.LENGTH_SHORT).show();
                     return;
                 }
+                user.setName(username);
+
+                final String id = databaseUsers.push().getKey();
 
                 auth.createUserWithEmailAndPassword(email,password)
                         .addOnCompleteListener(SignupActivity.this, new OnCompleteListener<AuthResult>() {
@@ -72,10 +85,13 @@ public class SignupActivity extends AppCompatActivity {
                                 if(!task.isSuccessful()){
                                     Toast.makeText(SignupActivity.this, "Authentication Failed."+task.getException(),Toast.LENGTH_SHORT).show();
                                 }else{
+                                    databaseUsers.child(id).setValue(user.getName());
                                     finish();
                                 }
                             }
                         });
+
+
 
             }
         });

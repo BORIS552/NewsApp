@@ -6,23 +6,26 @@
     density="420dpi"
     format="10"
     plugin-version="2.3.2"
-    timestamp="1509932279717"
+    timestamp="1509940292158"
     token="-877133590322555722"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="471" />
+        duration="419" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="33" />
+        duration="30" />
     <task
         name="verifier"
-        duration="10" />
+        duration="2" />
 
+    <artifact
+        location="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
     <artifact
         location="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
         type="SPLIT" />
@@ -78,8 +81,11 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1509932279717"
+        timestamp="1509940292158"
         verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
         <artifact
             location="/Users/boris/Desktop/Android_git/NewsApp/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
