@@ -1,0 +1,4 @@
+#Thu May 30 22:41:40 IST 2019
+base.0=/home/borisbiswas/Desktop/NewsApp/app/build/intermediates/transforms/dexMerger/debug/10
+path.0=classes.dex
+renamed.0=classes.dex

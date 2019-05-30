@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/borisbiswas/Desktop/NewsApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
+            "map": [
+                {
+                    "source": "/home/borisbiswas/.gradle/caches/transforms-2/files-2.1/cc96746f1d3f44d3227c3c8b6665ca93/res/values-v14/values-v14.xml",
+                    "from": {
+                        "startLines": "2,7,8,9,15",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,331,402,485,895",
+                        "endLines": "6,7,8,14,20",
+                        "endColumns": "12,70,82,12,12",
+                        "endOffsets": "326,397,480,890,1312"
+                    }
+                }
+            ]
+        }
+    ]
+}

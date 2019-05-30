@@ -83,26 +83,26 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item)
-    {
-        switch (item.getItemId()) {
-            case R.id.action_login:
-                    System.out.println("Login Clicked");
-                Intent intent = new Intent(this, SignupActivity.class);
-                startActivity(intent);
-                 return  true;
-            case R.id.action_bookmark:
-                System.out.println("BookMark clicked");
-                Intent intent2 = new Intent(this, BookMarkActivity.class);
-                startActivity(intent2);
-            default:
-                return super.onOptionsItemSelected(item);
-
-
-        }
-
-    }
+//    @Override
+//    public boolean onOptionsItemSelected(MenuItem item)
+//    {
+//        switch (item.getItemId()) {
+//            case R.id.action_login:
+//                    System.out.println("Login Clicked");
+//                Intent intent = new Intent(this, SignupActivity.class);
+//                startActivity(intent);
+//                 return  true;
+//            case R.id.action_bookmark:
+//                System.out.println("BookMark clicked");
+//                Intent intent2 = new Intent(this, BookMarkActivity.class);
+//                startActivity(intent2);
+//            default:
+//                return super.onOptionsItemSelected(item);
+//
+//
+//        }
+//
+//    }
 
 
 
